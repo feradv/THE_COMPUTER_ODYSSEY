@@ -1,0 +1,286 @@
+{
+	"name": "EV_TIENDA",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 531724237239912
+				}
+			],
+			"actions": [
+				{
+					"id": "set-cursor-style",
+					"objectClass": "MOUSE",
+					"sid": 252139942372080,
+					"parameters": {
+						"cursor-style": "none"
+					}
+				},
+				{
+					"id": "find-path",
+					"objectClass": "CHARACTER",
+					"sid": 505724736588424,
+					"behaviorType": "Buscarutas",
+					"parameters": {
+						"x": "698",
+						"y": "628"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "CHARACTER",
+					"sid": 684123087780583,
+					"parameters": {
+						"animation": "\"ANDAR\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 387044572021600
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-path-found",
+					"objectClass": "CHARACTER",
+					"sid": 933272423108624,
+					"behaviorType": "Buscarutas"
+				}
+			],
+			"actions": [
+				{
+					"id": "move-along-path",
+					"objectClass": "CHARACTER",
+					"sid": 836939560947906,
+					"behaviorType": "Buscarutas"
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 282269897561210,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_DIALOGO_CHAR",
+					"sid": 418273824739325,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 743623579176871,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_DIALOGO_CHAR",
+					"sid": 996148389769790,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 935136621412296
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 924287605675225
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "PUNTERO",
+					"sid": 910480201089245,
+					"parameters": {
+						"x": "MOUSE.X",
+						"y": "MOUSE.Y"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "PUNTERO",
+					"sid": 528352669575772,
+					"parameters": {
+						"frame-number": "0"
+					}
+				}
+			],
+			"sid": 153679157564035
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "MOUSE",
+					"sid": 115512453944166,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "CHARACTER"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "CHARACTER",
+					"sid": 361255055265805,
+					"parameters": {
+						"animation": "\"ESPECIAL\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 524955045753994
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "PUNTERO",
+					"sid": 717031621277078,
+					"parameters": {
+						"object": "SPR_SALIR_TIENDA"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "PUNTERO",
+					"sid": 191032641690672,
+					"parameters": {
+						"frame-number": "1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_SALIR_TIENDA",
+					"sid": 924997061750839,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 837475198700574
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "PUNTERO",
+					"sid": 456063849828342,
+					"parameters": {
+						"object": "SPR_SALIR_TIENDA"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "PUNTERO",
+					"sid": 245530451370067,
+					"parameters": {
+						"frame-number": "0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_SALIR_TIENDA",
+					"sid": 466040919084502,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 447371571782132
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "MOUSE",
+					"sid": 170502027869710,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "SPR_SALIR_TIENDA"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "CHARACTER",
+					"sid": 996441357797668,
+					"parameters": {
+						"state": "mirrored"
+					}
+				},
+				{
+					"id": "start-animation",
+					"objectClass": "CHARACTER",
+					"sid": 680247387468066,
+					"parameters": {
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "find-path",
+					"objectClass": "CHARACTER",
+					"sid": 623504434859394,
+					"behaviorType": "Buscarutas",
+					"parameters": {
+						"x": "MOUSE.X",
+						"y": "MOUSE.Y"
+					}
+				},
+				{
+					"id": "move-along-path",
+					"objectClass": "CHARACTER",
+					"sid": 765101477254686,
+					"behaviorType": "Buscarutas"
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 802764180564170,
+					"parameters": {
+						"seconds": "5.0"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 996551684466087,
+					"parameters": {
+						"layout": "MAPA"
+					}
+				}
+			],
+			"sid": 350834411734758
+		}
+	],
+	"sid": 572834313298305
+}
