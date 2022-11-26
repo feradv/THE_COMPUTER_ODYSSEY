@@ -1,0 +1,175 @@
+{
+	"name": "EV_MENU",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 706234437416089
+				}
+			],
+			"actions": [
+				{
+					"id": "set-cursor-style",
+					"objectClass": "MOUSE",
+					"sid": 498374607784035,
+					"parameters": {
+						"cursor-style": "none"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 455895626170465,
+					"parameters": {
+						"seconds": "3.0"
+					}
+				},
+				{
+					"id": "set-effect-enabled",
+					"objectClass": "TXT_TITULO",
+					"sid": 305059497976659,
+					"parameters": {
+						"mode": "disable",
+						"effect": "\"Pixelar\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 277483573890044,
+					"parameters": {
+						"seconds": "0.7"
+					}
+				},
+				{
+					"id": "set-effect-enabled",
+					"objectClass": "TXT_TITULO",
+					"sid": 108029836495153,
+					"parameters": {
+						"mode": "enable",
+						"effect": "\"Pixelar\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 841094592463118,
+					"parameters": {
+						"seconds": "0.3"
+					}
+				},
+				{
+					"id": "set-effect-enabled",
+					"objectClass": "TXT_TITULO",
+					"sid": 208688702776166,
+					"parameters": {
+						"mode": "disable",
+						"effect": "\"Pixelar\""
+					}
+				}
+			],
+			"sid": 444801892125066
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 549837850751431
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "PUNTERO",
+					"sid": 816991503104676,
+					"parameters": {
+						"x": "MOUSE.X",
+						"y": "MOUSE.Y"
+					}
+				}
+			],
+			"sid": 632934314312724
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "PUNTERO",
+					"sid": 151638454073362,
+					"parameters": {
+						"object": "SPR_START"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "PUNTERO",
+					"sid": 655270663119261,
+					"parameters": {
+						"frame-number": "1"
+					}
+				}
+			],
+			"sid": 200108098222369
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "PUNTERO",
+					"sid": 781512399025692,
+					"parameters": {
+						"object": "SPR_START"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "PUNTERO",
+					"sid": 571130962679751,
+					"parameters": {
+						"frame-number": "0"
+					}
+				}
+			],
+			"sid": 422068521408095
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "MOUSE",
+					"sid": 434872085509569,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "SPR_START"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 191983664730700,
+					"parameters": {
+						"layout": "MAPA"
+					}
+				}
+			],
+			"sid": 418904769842051
+		}
+	],
+	"sid": 469981207973268
+}

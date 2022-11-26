@@ -1,0 +1,69 @@
+{
+	"name": "PUNTERO",
+	"plugin-id": "Sprite",
+	"sid": 283186823789439,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 276,
+						"height": 241,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9825646,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 276,
+						"height": 234,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1096942,
+						"collisionPoly": {
+							"points": [
+								0.05434782608695652,
+								0.0641025641025641,
+								0.5,
+								0.05128205128205128,
+								0.822463768115942,
+								0.20512820512820512,
+								0.9528985507246377,
+								0.5,
+								0.8478260869565217,
+								0.8205128205128205,
+								0.5,
+								0.8632478632478633,
+								0.18478260869565216,
+								0.7777777777777778,
+								0.19927536231884058,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 699176602520083,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

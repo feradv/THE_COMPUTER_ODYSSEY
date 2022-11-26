@@ -1,0 +1,14 @@
+{
+	"name": "TXT_TITULO",
+	"plugin-id": "Text",
+	"sid": 374472110896654,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "pixellate",
+			"name": "Pixelar"
+		}
+	]
+}
