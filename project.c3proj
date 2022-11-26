@@ -74,7 +74,11 @@
 			"SPR_ROBOT",
 			"TXT_DIALOGO_VEN",
 			"TXT_DIALOGO_ROB",
-			"TXT_DIALOGO_CHA"
+			"TXT_DIALOGO_CH_PU",
+			"SPR_SALIDA_PUESTO",
+			"TXT_SALIDA_PUESTO",
+			"SPR_PR_PUESTO",
+			"TXT_DIALOGO_CH_TI"
 		],
 		"subfolders": []
 	},

@@ -63,8 +63,8 @@
 						}
 					},
 					"world": {
-						"x": 287,
-						"y": 830,
+						"x": 1806,
+						"y": 836,
 						"width": 268,
 						"height": 449,
 						"originX": 0.5,
@@ -134,10 +134,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 251,
-						"y": 539,
-						"width": 790,
-						"height": 102,
+						"x": 174,
+						"y": 587,
+						"width": 881,
+						"height": 136,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -176,10 +176,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 802,
-						"y": 669,
-						"width": 790,
-						"height": 102,
+						"x": 817,
+						"y": 633,
+						"width": 881,
+						"height": 136,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -193,7 +193,7 @@
 					}
 				},
 				{
-					"type": "TXT_DIALOGO_CHA",
+					"type": "TXT_DIALOGO_CH_PU",
 					"properties": {
 						"text": "",
 						"enable-bbcode": true,
@@ -218,12 +218,112 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 244,
-						"y": 607,
-						"width": 790,
-						"height": 102,
+						"x": 1019,
+						"y": 621,
+						"width": 881,
+						"height": 136,
 						"originX": 0,
 						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SPR_SALIDA_PUESTO",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 20,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1839,
+						"y": 839,
+						"width": 147,
+						"height": 350,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TXT_SALIDA_PUESTO",
+					"properties": {
+						"text": "<-SALIR->",
+						"enable-bbcode": true,
+						"font": "OCR A",
+						"size": 50,
+						"line-height": 0,
+						"bold": true,
+						"italic": true,
+						"color": [
+							0,
+							1,
+							0.8823529411764706,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 32,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1540,
+						"y": 571,
+						"width": 485,
+						"height": 126,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SPR_PR_PUESTO",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 33,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1086,
+						"y": 825,
+						"width": 206,
+						"height": 352,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,

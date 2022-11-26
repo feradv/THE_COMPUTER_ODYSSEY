@@ -324,6 +324,15 @@
 			],
 			"actions": [
 				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 311822283148669,
+					"parameters": {
+						"variable": "tiendaActiva",
+						"value": "1"
+					}
+				},
+				{
 					"id": "go-to-layout",
 					"objectClass": "System",
 					"sid": 159828084804905,

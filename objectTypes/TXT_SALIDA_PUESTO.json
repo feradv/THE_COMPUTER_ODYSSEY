@@ -1,7 +1,7 @@
 {
-	"name": "TXT_DIALOGO_CHA",
+	"name": "TXT_SALIDA_PUESTO",
 	"plugin-id": "Text",
-	"sid": 206163958163495,
+	"sid": 291936569992931,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
