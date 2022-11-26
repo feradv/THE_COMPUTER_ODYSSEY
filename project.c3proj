@@ -46,7 +46,15 @@
 			"SPR_START",
 			"PUNTERO",
 			"MOUSE",
-			"TXT_TITULO"
+			"TXT_TITULO",
+			"BG_MAPA",
+			"SPR_TIENDA",
+			"SPR_RECREATIVA",
+			"SPR_PUESTO",
+			"SPR_FONDO_MAPA",
+			"TXT_RECREATIVA",
+			"TXT_TIENDA",
+			"TXT_PUESTO"
 		],
 		"subfolders": []
 	},

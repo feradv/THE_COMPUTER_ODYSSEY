@@ -1,5 +1,202 @@
 {
 	"name": "EV_MAPA",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 626443884439683
+				}
+			],
+			"actions": [
+				{
+					"id": "set-cursor-style",
+					"objectClass": "MOUSE",
+					"sid": 762384087011862,
+					"parameters": {
+						"cursor-style": "none"
+					}
+				}
+			],
+			"sid": 622018230821209
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 739294824049168
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "PUNTERO",
+					"sid": 853074880989812,
+					"parameters": {
+						"x": "MOUSE.X",
+						"y": "MOUSE.Y"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "PUNTERO",
+					"sid": 484981464774787,
+					"parameters": {
+						"frame-number": "0"
+					}
+				}
+			],
+			"sid": 814181339115596
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "PUNTERO",
+					"sid": 601928027465029,
+					"parameters": {
+						"object": "SPR_PUESTO"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "PUNTERO",
+					"sid": 688572396195742,
+					"parameters": {
+						"frame-number": "1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_PUESTO",
+					"sid": 122541229019451,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 788728908146512
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "PUNTERO",
+					"sid": 842728547269225,
+					"parameters": {
+						"object": "SPR_PUESTO"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "PUNTERO",
+					"sid": 655751075853520,
+					"parameters": {
+						"frame-number": "0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_PUESTO",
+					"sid": 424012843209777,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_RECREATIVA",
+					"sid": 194396024223090,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_TIENDA",
+					"sid": 634666496627571,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 201157105931149
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "PUNTERO",
+					"sid": 191995520905743,
+					"parameters": {
+						"object": "SPR_RECREATIVA"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "PUNTERO",
+					"sid": 164253246567706,
+					"parameters": {
+						"frame-number": "1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_RECREATIVA",
+					"sid": 867110455154568,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 218869237258044
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "PUNTERO",
+					"sid": 789758826422503,
+					"parameters": {
+						"object": "SPR_TIENDA"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "PUNTERO",
+					"sid": 679118036060936,
+					"parameters": {
+						"frame-number": "1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_TIENDA",
+					"sid": 229068287273214,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 544094094734992
+		}
+	],
 	"sid": 559018905297445
 }
