@@ -65,35 +65,6 @@
 					}
 				},
 				{
-					"type": "PUNTERO",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 12,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1059,
-						"y": 1160,
-						"width": 59,
-						"height": 60,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "TXT_TIENDA",
 					"properties": {
 						"text": "TIENDA INFORMÁTICA",
@@ -167,6 +138,119 @@
 						"height": 74,
 						"originX": 0,
 						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TXT_RECREATIVA",
+					"properties": {
+						"text": "SALA RECREATIVA",
+						"enable-bbcode": true,
+						"font": "OCR A",
+						"size": 40,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							0,
+							1,
+							0.8823529411764706,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 13,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1355,
+						"y": 135,
+						"width": 587,
+						"height": 70,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TXT_INTRO",
+					"properties": {
+						"text": "AÑO 2173...\nTe encuentras en Ciudad 23. Una metrópolis caótica y rebosante de inmundicia. Habitada por gentes desconocedoras de un oscuro secreto. Sus vidas están gobernadas por una élite que opera en las sombras y cuyo mayor objetivo es el de controlar todo. Por desgracia, tu misión dista mucho de convertirte en el nuevo salvador de este mundo. Tienes problemas acuciantes que requieren tu total atención. Tu ordenador se ha averiado y tienes que entregar un trabajo de informática esta misma noche. El tiempo corre en tu contra. El aprobado está en juego. Corre. TU FUTURO DEPENDE DE ELLO!!...",
+						"enable-bbcode": true,
+						"font": "OCR A",
+						"size": 19,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							1,
+							0.8823529411764706,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 16,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -1,
+						"y": 883,
+						"width": 1921,
+						"height": 188,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "PUNTERO",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 12,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1059,
+						"y": 1160,
+						"width": 59,
+						"height": 60,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -288,48 +372,6 @@
 						"height": 212,
 						"originX": 0.5,
 						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "TXT_RECREATIVA",
-					"properties": {
-						"text": "SALA RECREATIVA",
-						"enable-bbcode": true,
-						"font": "OCR A",
-						"size": 40,
-						"line-height": 0,
-						"bold": true,
-						"italic": false,
-						"color": [
-							0,
-							1,
-							0.8823529411764706,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 13,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1355,
-						"y": 135,
-						"width": 587,
-						"height": 70,
-						"originX": 0,
-						"originY": 0,
 						"color": [
 							1,
 							1,

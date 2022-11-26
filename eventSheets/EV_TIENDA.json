@@ -1,0 +1,57 @@
+{
+	"name": "EV_TIENDA",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 655800955176158
+				}
+			],
+			"actions": [
+				{
+					"id": "set-cursor-style",
+					"objectClass": "MOUSE",
+					"sid": 381034664916915,
+					"parameters": {
+						"cursor-style": "none"
+					}
+				}
+			],
+			"sid": 307478338329305
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 251784706373337
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "PUNTERO",
+					"sid": 812240569468619,
+					"parameters": {
+						"x": "MOUSE.X",
+						"y": "MOUSE.Y"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "PUNTERO",
+					"sid": 136141253459299,
+					"parameters": {
+						"frame-number": "0"
+					}
+				}
+			],
+			"sid": 979472079890122
+		}
+	],
+	"sid": 929050470403862
+}

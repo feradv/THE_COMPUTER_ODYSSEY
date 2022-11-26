@@ -196,6 +196,54 @@
 				}
 			],
 			"sid": 544094094734992
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 227302349097921
+				}
+			],
+			"actions": [
+				{
+					"id": "typewriter-text",
+					"objectClass": "TXT_INTRO",
+					"sid": 662690771235152,
+					"parameters": {
+						"text": "TXT_INTRO.Text",
+						"duration": "30"
+					}
+				}
+			],
+			"sid": 535913592787123
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "MOUSE",
+					"sid": 879919864196764,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "SPR_TIENDA"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 399053097752956,
+					"parameters": {
+						"layout": "TIENDA"
+					}
+				}
+			],
+			"sid": 308338092158989
 		}
 	],
 	"sid": 559018905297445

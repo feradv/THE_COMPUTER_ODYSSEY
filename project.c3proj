@@ -54,7 +54,10 @@
 			"SPR_FONDO_MAPA",
 			"TXT_RECREATIVA",
 			"TXT_TIENDA",
-			"TXT_PUESTO"
+			"TXT_PUESTO",
+			"TXT_INTRO",
+			"informatica",
+			"Idle"
 		],
 		"subfolders": []
 	},
@@ -67,14 +70,16 @@
 	"layouts": {
 		"items": [
 			"MENU",
-			"MAPA"
+			"MAPA",
+			"TIENDA"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"EV_MENU",
-			"EV_MAPA"
+			"EV_MAPA",
+			"EV_TIENDA"
 		],
 		"subfolders": []
 	},
