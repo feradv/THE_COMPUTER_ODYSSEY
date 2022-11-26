@@ -2,6 +2,16 @@
 	"name": "EV_MAPA",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "tiendaActiva",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 249786683822188
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -235,6 +245,15 @@
 			],
 			"actions": [
 				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 966185430284757,
+					"parameters": {
+						"variable": "tiendaActiva",
+						"value": "1"
+					}
+				},
+				{
 					"id": "go-to-layout",
 					"objectClass": "System",
 					"sid": 503544593974501,
@@ -244,6 +263,29 @@
 				}
 			],
 			"sid": 308338092158989
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 140993850575611,
+					"parameters": {
+						"variable": "tiendaActiva",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "SPR_TIENDA",
+					"sid": 676242602996769
+				}
+			],
+			"sid": 607579314617128
 		}
 	],
 	"sid": 559018905297445
