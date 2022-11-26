@@ -256,7 +256,7 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 503544593974501,
+					"sid": 156725212705631,
 					"parameters": {
 						"layout": "TIENDA"
 					}
@@ -283,9 +283,40 @@
 					"id": "destroy",
 					"objectClass": "SPR_TIENDA",
 					"sid": 676242602996769
+				},
+				{
+					"id": "typewriter-finish",
+					"objectClass": "TXT_INTRO",
+					"sid": 796195402037934
 				}
 			],
 			"sid": 607579314617128
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "MOUSE",
+					"sid": 425386263951895,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "SPR_PUESTO"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 159828084804905,
+					"parameters": {
+						"layout": "PUESTO"
+					}
+				}
+			],
+			"sid": 547893259078726
 		}
 	],
 	"sid": 559018905297445

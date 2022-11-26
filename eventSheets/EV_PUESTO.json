@@ -1,0 +1,57 @@
+{
+	"name": "EV_PUESTO",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 530663412480054
+				}
+			],
+			"actions": [
+				{
+					"id": "set-cursor-style",
+					"objectClass": "MOUSE",
+					"sid": 724852933385408,
+					"parameters": {
+						"cursor-style": "none"
+					}
+				}
+			],
+			"sid": 889435745118655
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 467262593512621
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "PUNTERO",
+					"sid": 710155887104864,
+					"parameters": {
+						"x": "MOUSE.X",
+						"y": "MOUSE.Y"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "PUNTERO",
+					"sid": 778762561641644,
+					"parameters": {
+						"frame-number": "0"
+					}
+				}
+			],
+			"sid": 153785869323593
+		}
+	],
+	"sid": 561734777682761
+}

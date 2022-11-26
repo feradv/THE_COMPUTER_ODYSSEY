@@ -69,7 +69,8 @@
 			"TXT_DIALOGO_CH_INF",
 			"SPR_SALIR_INF",
 			"TXT_SALIR_INF",
-			"SPR_TIENDA_CLOSED"
+			"SPR_TIENDA_CLOSED",
+			"tienda"
 		],
 		"subfolders": []
 	},
@@ -83,7 +84,8 @@
 		"items": [
 			"MENU",
 			"MAPA",
-			"TIENDA"
+			"TIENDA",
+			"PUESTO"
 		],
 		"subfolders": []
 	},
@@ -91,7 +93,8 @@
 		"items": [
 			"EV_MENU",
 			"EV_MAPA",
-			"EV_TIENDA"
+			"EV_TIENDA",
+			"EV_PUESTO"
 		],
 		"subfolders": []
 	},
