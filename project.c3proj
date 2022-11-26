@@ -31,14 +31,6 @@
 			"bundled": false
 		},
 		{
-			"type": "behavior",
-			"id": "Pathfinding",
-			"name": "Busca-rutas",
-			"author": "Scirra",
-			"version": "r317.2",
-			"bundled": false
-		},
-		{
 			"type": "effect",
 			"id": "pixellate",
 			"name": "Pixelar",
@@ -54,21 +46,7 @@
 			"SPR_START",
 			"PUNTERO",
 			"MOUSE",
-			"TXT_TITULO",
-			"BG_MAPA",
-			"SPR_FONDO_MAPA",
-			"TXT_INTRODUCCION",
-			"SPR_RECREATIVA",
-			"TXT_RECREATIVA",
-			"SPR_TIENDA",
-			"TXT_TIENDA",
-			"TXT_PUESTO_COMIDA",
-			"SPR_PUESTO",
-			"BG_INFORMATICA",
-			"CHARACTER",
-			"TXT_DIALOGO_CHAR",
-			"SPR_SALIR_TIENDA",
-			"TXT_SALIR_TIENDA"
+			"TXT_TITULO"
 		],
 		"subfolders": []
 	},
@@ -81,16 +59,14 @@
 	"layouts": {
 		"items": [
 			"MENU",
-			"MAPA",
-			"TIENDA_INFORMATICA"
+			"MAPA"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"EV_MENU",
-			"EV_MAPA",
-			"EV_TIENDA"
+			"EV_MAPA"
 		],
 		"subfolders": []
 	},
@@ -154,9 +130,9 @@
 			0
 		],
 		"splashColor": [
-			0,
-			0,
-			0,
+			1,
+			1,
+			1,
 			0
 		],
 		"useThemeColor": false,
