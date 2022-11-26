@@ -285,6 +285,22 @@
 					"sid": 676242602996769
 				},
 				{
+					"id": "set-collisions-enabled",
+					"objectClass": "SPR_PUESTO",
+					"sid": 364079163572498,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "SPR_RECREATIVA",
+					"sid": 790717641509843,
+					"parameters": {
+						"collisions": "enabled"
+					}
+				},
+				{
 					"id": "typewriter-finish",
 					"objectClass": "TXT_INTRO",
 					"sid": 796195402037934

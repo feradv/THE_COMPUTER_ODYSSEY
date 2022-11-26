@@ -66,11 +66,15 @@
 			"TXT_INTRO",
 			"BG_INFORMATICA",
 			"PERSONAJE",
-			"TXT_DIALOGO_CH_INF",
 			"SPR_SALIR_INF",
 			"TXT_SALIR_INF",
 			"SPR_TIENDA_CLOSED",
-			"tienda"
+			"BG_PUESTO",
+			"SPR_VENDEDOR",
+			"SPR_ROBOT",
+			"TXT_DIALOGO_VEN",
+			"TXT_DIALOGO_ROB",
+			"TXT_DIALOGO_CHA"
 		],
 		"subfolders": []
 	},

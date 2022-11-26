@@ -109,50 +109,6 @@
 					}
 				},
 				{
-					"type": "TXT_DIALOGO_CH_INF",
-					"properties": {
-						"text": "Joder!! Está cerrado!!...",
-						"enable-bbcode": true,
-						"font": "OCR A",
-						"size": 30,
-						"line-height": 0,
-						"bold": true,
-						"italic": false,
-						"color": [
-							0,
-							1,
-							0.8823529411764706,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 20,
-					"instanceVariables": {
-						"textoActivo": 0
-					},
-					"behaviors": {},
-					"world": {
-						"x": 672,
-						"y": 317,
-						"width": 721,
-						"height": 61,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "SPR_SALIR_INF",
 					"properties": {
 						"initially-visible": true,

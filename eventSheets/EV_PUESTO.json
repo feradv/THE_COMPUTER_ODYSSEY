@@ -51,6 +51,428 @@
 				}
 			],
 			"sid": 153785869323593
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "MOUSE",
+					"sid": 456936643192815,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "PERSONAJE"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PERSONAJE",
+					"sid": 574310834450668,
+					"parameters": {
+						"animation": "\"ESPECIAL\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 469262113653005
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "PUNTERO",
+					"sid": 587641804152897,
+					"parameters": {
+						"object": "SPR_VENDEDOR"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "PUNTERO",
+					"sid": 421855653929754,
+					"parameters": {
+						"frame-number": "1"
+					}
+				}
+			],
+			"sid": 267325885371654
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "PUNTERO",
+					"sid": 676259755541528,
+					"parameters": {
+						"object": "SPR_VENDEDOR"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "PUNTERO",
+					"sid": 825751072859269,
+					"parameters": {
+						"frame-number": "0"
+					}
+				}
+			],
+			"sid": 432051307658663
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "PUNTERO",
+					"sid": 149400643963659,
+					"parameters": {
+						"object": "SPR_ROBOT"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "PUNTERO",
+					"sid": 672206357421375,
+					"parameters": {
+						"frame-number": "1"
+					}
+				}
+			],
+			"sid": 847375754535828
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "MOUSE",
+					"sid": 436697143213697,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "SPR_VENDEDOR"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_CHA",
+					"sid": 467950499673752,
+					"parameters": {
+						"text": "\"Hola\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 880987600473151,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_CHA",
+					"sid": 641294642029029,
+					"parameters": {
+						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_VEN",
+					"sid": 144202696162358,
+					"parameters": {
+						"text": "\"Mmmhpf\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 587644236372136,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_VEN",
+					"sid": 892632799327201,
+					"parameters": {
+						"text": "\"....ZZzzZZZzzzzZ....\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_CHA",
+					"sid": 546161504546181,
+					"parameters": {
+						"text": "\"¿Hola?\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 829505370023993,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_CHA",
+					"sid": 607626933143812,
+					"parameters": {
+						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_ROB",
+					"sid": 156402396828105,
+					"parameters": {
+						"text": "\"Jajajajaj\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 741527808119166,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_ROB",
+					"sid": 802890756451693,
+					"parameters": {
+						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_CHA",
+					"sid": 916943067304482,
+					"parameters": {
+						"text": "\"HOOOOLAAAAAA!!!!\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 117043817241778,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_CHA",
+					"sid": 114192460338060,
+					"parameters": {
+						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_VEN",
+					"sid": 254531458991652,
+					"parameters": {
+						"text": "\"Brrffgg....ZzZZzzZZZzz....\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 221390196429109,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_VEN",
+					"sid": 975354955086401,
+					"parameters": {
+						"text": "\"....ZZzzZZZzzzzZ....\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_ROB",
+					"sid": 629062727025780,
+					"parameters": {
+						"text": "\"Jajajajajajajaj\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 324045590587240,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_ROB",
+					"sid": 477206551434178,
+					"parameters": {
+						"text": "\"Así no vas a conseguir despertarle nunca\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 387982018286435,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_ROB",
+					"sid": 696120586345240,
+					"parameters": {
+						"text": "\"Tiene truco...\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 425823568741990,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_ROB",
+					"sid": 879202431313557,
+					"parameters": {
+						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_CHA",
+					"sid": 716501226351989,
+					"parameters": {
+						"text": "\"¿Ah, sí?. ¿Y cúal es?\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 968889277653857,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_CHA",
+					"sid": 726535302093640,
+					"parameters": {
+						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_ROB",
+					"sid": 751200974464204,
+					"parameters": {
+						"text": "\"Pareces buen tío...te lo diré...\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 408541253722851,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_ROB",
+					"sid": 121057674703776,
+					"parameters": {
+						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_CHA",
+					"sid": 489384757152855,
+					"parameters": {
+						"text": "\"Genial!!\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 895576247244148,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_CHA",
+					"sid": 245098813065625,
+					"parameters": {
+						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_ROB",
+					"sid": 504086843991248,
+					"parameters": {
+						"text": "\"Por 200 pesetas...\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 875356548232008,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_ROB",
+					"sid": 785299353873792,
+					"parameters": {
+						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_CHA",
+					"sid": 929618168381980,
+					"parameters": {
+						"text": "\"No tengo tanto dinero...¿no habría otra forma?\""
+					}
+				}
+			],
+			"sid": 619062401090965
 		}
 	],
 	"sid": 561734777682761

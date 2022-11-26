@@ -221,14 +221,6 @@
 					}
 				},
 				{
-					"id": "set-visible",
-					"objectClass": "TXT_DIALOGO_CH_INF",
-					"sid": 422498193781888,
-					"parameters": {
-						"visibility": "visible"
-					}
-				},
-				{
 					"id": "wait",
 					"objectClass": "System",
 					"sid": 554041888909775,
@@ -237,33 +229,11 @@
 					}
 				},
 				{
-					"id": "set-text",
-					"objectClass": "TXT_DIALOGO_CH_INF",
-					"sid": 369768329270122,
-					"parameters": {
-						"text": "\"Mierda...\""
-					}
-				},
-				{
 					"id": "wait",
 					"objectClass": "System",
 					"sid": 640555696043605,
 					"parameters": {
 						"seconds": "1.5"
-					}
-				},
-				{
-					"id": "destroy",
-					"objectClass": "TXT_DIALOGO_CH_INF",
-					"sid": 625915567138368
-				},
-				{
-					"id": "set-instvar-value",
-					"objectClass": "TXT_DIALOGO_CH_INF",
-					"sid": 272489461756919,
-					"parameters": {
-						"instance-variable": "textoActivo",
-						"value": "1"
 					}
 				}
 			],
