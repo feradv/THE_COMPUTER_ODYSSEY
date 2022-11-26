@@ -18,6 +18,16 @@
 					"parameters": {
 						"cursor-style": "none"
 					}
+				},
+				{
+					"id": "find-path",
+					"objectClass": "PERSONAJE",
+					"sid": 925823136635460,
+					"behaviorType": "Buscarutas",
+					"parameters": {
+						"x": "SPR_TIENDA_CLOSED.ImagePointX(0)",
+						"y": "SPR_TIENDA_CLOSED.ImagePointY(0)"
+					}
 				}
 			],
 			"sid": 307478338329305
@@ -51,6 +61,213 @@
 				}
 			],
 			"sid": 979472079890122
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "PUNTERO",
+					"sid": 431297382575737,
+					"parameters": {
+						"object": "SPR_SALIR_INF"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "PUNTERO",
+					"sid": 410818323007099,
+					"parameters": {
+						"frame-number": "1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_SALIR_INF",
+					"sid": 724947434064560,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 522824199770527
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "PUNTERO",
+					"sid": 396034476688806,
+					"parameters": {
+						"object": "SPR_SALIR_INF"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "PUNTERO",
+					"sid": 229433831855920,
+					"parameters": {
+						"frame-number": "0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_SALIR_INF",
+					"sid": 652955776637922,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 775419092193737
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "MOUSE",
+					"sid": 792701507632713,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "SPR_SALIR_INF"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "PERSONAJE",
+					"sid": 326007791987467,
+					"parameters": {
+						"state": "mirrored"
+					}
+				},
+				{
+					"id": "find-path",
+					"objectClass": "PERSONAJE",
+					"sid": 453869749948531,
+					"behaviorType": "Buscarutas",
+					"parameters": {
+						"x": "SPR_SALIR_INF.ImagePointX(0)",
+						"y": "SPR_SALIR_INF.ImagePointY(0)"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 537895041898826,
+					"parameters": {
+						"seconds": "5.0"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 566935644185850,
+					"parameters": {
+						"layout": "MAPA"
+					}
+				}
+			],
+			"sid": 287862677807084
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-path-found",
+					"objectClass": "PERSONAJE",
+					"sid": 496084698406712,
+					"behaviorType": "Buscarutas"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PERSONAJE",
+					"sid": 186982029371636,
+					"parameters": {
+						"animation": "\"ANDAR\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "move-along-path",
+					"objectClass": "PERSONAJE",
+					"sid": 534619296776667,
+					"behaviorType": "Buscarutas"
+				}
+			],
+			"sid": 171937309211731
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "PERSONAJE",
+					"sid": 774987567209678,
+					"parameters": {
+						"object": "SPR_TIENDA_CLOSED"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 167820760811947,
+					"parameters": {
+						"seconds": "3.0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_DIALOGO_CH_INF",
+					"sid": 422498193781888,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 672889259780840,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_CH_INF",
+					"sid": 369768329270122,
+					"parameters": {
+						"text": "\"Mierda...\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 462564618966306,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "TXT_DIALOGO_CH_INF",
+					"sid": 515205033041974
+				}
+			],
+			"sid": 112411335224757
 		}
 	],
 	"sid": 929050470403862

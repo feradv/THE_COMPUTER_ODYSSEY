@@ -237,7 +237,7 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 399053097752956,
+					"sid": 503544593974501,
 					"parameters": {
 						"layout": "TIENDA"
 					}

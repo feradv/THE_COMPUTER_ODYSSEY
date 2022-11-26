@@ -31,6 +31,14 @@
 			"bundled": false
 		},
 		{
+			"type": "behavior",
+			"id": "Pathfinding",
+			"name": "Busca-rutas",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "effect",
 			"id": "pixellate",
 			"name": "Pixelar",
@@ -56,8 +64,12 @@
 			"TXT_TIENDA",
 			"TXT_PUESTO",
 			"TXT_INTRO",
-			"informatica",
-			"Idle"
+			"BG_INFORMATICA",
+			"PERSONAJE",
+			"TXT_DIALOGO_CH_INF",
+			"SPR_SALIR_INF",
+			"TXT_SALIR_INF",
+			"SPR_TIENDA_CLOSED"
 		],
 		"subfolders": []
 	},

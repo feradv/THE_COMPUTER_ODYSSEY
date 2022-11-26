@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "informatica",
+					"type": "BG_INFORMATICA",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Default",
@@ -23,6 +23,50 @@
 						"y": 540,
 						"width": 1920,
 						"height": 1080,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "PERSONAJE",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "PARAR",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 19,
+					"instanceVariables": {},
+					"behaviors": {
+						"Buscarutas": {
+							"properties": {
+								"cell-size": 30,
+								"cell-border": -1,
+								"obstacles": "solids",
+								"max-speed": 700,
+								"acceleration": 700,
+								"deceleration": 700,
+								"rotate-speed": 700,
+								"rotate-object": false,
+								"diagonals": true,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 513,
+						"y": 580,
+						"width": 256,
+						"height": 545,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -65,22 +109,135 @@
 					}
 				},
 				{
-					"type": "Idle",
+					"type": "TXT_DIALOGO_CH_INF",
+					"properties": {
+						"text": "Joder!! Está cerrado!!...",
+						"enable-bbcode": true,
+						"font": "OCR A",
+						"size": 30,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							0,
+							1,
+							0.8823529411764706,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 20,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 672,
+						"y": 317,
+						"width": 721,
+						"height": 61,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SPR_SALIR_INF",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "PARAR",
+						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 19,
+					"uid": 21,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 518,
-						"y": 583,
-						"width": 256,
-						"height": 545,
+						"x": 374,
+						"y": 586,
+						"width": 202,
+						"height": 500,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TXT_SALIR_INF",
+					"properties": {
+						"text": "<-SALIR->",
+						"enable-bbcode": true,
+						"font": "OCR A",
+						"size": 50,
+						"line-height": 0,
+						"bold": true,
+						"italic": true,
+						"color": [
+							0,
+							1,
+							0.8823529411764706,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 22,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -1,
+						"y": 532,
+						"width": 371,
+						"height": 91,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SPR_TIENDA_CLOSED",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 23,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 926,
+						"y": 596,
+						"width": 202,
+						"height": 500,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
