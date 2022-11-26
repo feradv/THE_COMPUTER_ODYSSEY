@@ -36,6 +36,56 @@
 					}
 				},
 				{
+					"type": "TXT_TITULO",
+					"properties": {
+						"text": "THE COMPUTER ODYSSEY",
+						"enable-bbcode": true,
+						"font": "OCR A",
+						"size": 70,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 6,
+					"instanceVariables": {},
+					"behaviors": {},
+					"effects": {
+						"Pixelar": {
+							"isEnabled": true,
+							"parameters": {
+								"size": 16
+							}
+						}
+					},
+					"world": {
+						"x": 1298,
+						"y": 211,
+						"width": 547,
+						"height": 353,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "SPR_START",
 					"properties": {
 						"initially-visible": true,
@@ -126,58 +176,7 @@
 			"name": "START",
 			"overriden": 0,
 			"subLayers": [],
-			"instances": [
-				{
-					"type": "TXT_TITULO",
-					"properties": {
-						"text": "THE COMPUTER ODYSSEY",
-						"enable-bbcode": true,
-						"font": "OCR A",
-						"size": 70,
-						"line-height": 0,
-						"bold": true,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 6,
-					"instanceVariables": {},
-					"behaviors": {},
-					"effects": {
-						"Pixelar": {
-							"isEnabled": true,
-							"parameters": {
-								"size": 16
-							}
-						}
-					},
-					"world": {
-						"x": 1298,
-						"y": 211,
-						"width": 547,
-						"height": 353,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				}
-			],
+			"instances": [],
 			"sid": 343432847848966,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
