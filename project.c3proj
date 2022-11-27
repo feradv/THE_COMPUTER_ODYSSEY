@@ -31,17 +31,17 @@
 			"bundled": false
 		},
 		{
-			"type": "plugin",
-			"id": "Arr",
-			"name": "Matriz",
+			"type": "behavior",
+			"id": "Pathfinding",
+			"name": "Busca-rutas",
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
-			"id": "Pathfinding",
-			"name": "Busca-rutas",
+			"id": "DragnDrop",
+			"name": "Arrastrar y soltar",
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
@@ -85,7 +85,19 @@
 			"TXT_SALIDA_PUESTO",
 			"SPR_PR_PUESTO",
 			"TXT_DIALOGO_CH_TI",
-			"INVENTARIO"
+			"SPR_INVENTARIO_1",
+			"IMG_MONEDA",
+			"SPR_INVENTARIO_2",
+			"SPR_INVENTARIO_3",
+			"IMG_CPU",
+			"IMG_COOLER",
+			"IMG_PASTE",
+			"SPR_FUERA_UP",
+			"SPR_FUERA_DOWN",
+			"SPR_FUERA_UP_IZQ",
+			"SPR_FUERA_IZQ",
+			"SPR_FUERA_DER",
+			"TXT_VOZ_OFF"
 		],
 		"subfolders": []
 	},

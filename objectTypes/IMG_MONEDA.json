@@ -1,37 +1,36 @@
 {
-	"name": "SPR_ROBOT",
+	"name": "IMG_MONEDA",
 	"plugin-id": "Sprite",
-	"sid": 591280831074894,
+	"sid": 963521638823120,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 608713619413333
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 280,
+						"height": 280,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5945877,
+						"imageSpriteId": 8306061,
 						"useCollisionPoly": true,
-						"imagePoints": [
-							{
-								"name": "Punto imagen 1",
-								"x": 0.5,
-								"y": 1
-							}
-						],
 						"duration": 1
 					}
 				],
-				"sid": 579276964225511,
-				"name": "Animation 1",
+				"sid": 817651170584326,
+				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

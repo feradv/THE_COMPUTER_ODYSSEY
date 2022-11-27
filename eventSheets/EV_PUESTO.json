@@ -45,6 +45,15 @@
 						"animation": "\"PARAR\"",
 						"from": "beginning"
 					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "IMG_MONEDA",
+					"sid": 907022984249319,
+					"parameters": {
+						"x": "SPR_INVENTARIO_1.ImagePointX(0)",
+						"y": "SPR_INVENTARIO_1.ImagePointY(0)"
+					}
 				}
 			],
 			"sid": 889435745118655
@@ -561,29 +570,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-arrived",
-					"objectClass": "PERSONAJE",
-					"sid": 869475610846258,
-					"behaviorType": "Buscarutas"
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "PERSONAJE",
-					"sid": 126145382201024,
-					"parameters": {
-						"animation": "\"ESPECIAL\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 606811825558239
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "is-overlapping-another-object",
 					"objectClass": "PUNTERO",
 					"sid": 858713454045781,
@@ -688,6 +674,57 @@
 				}
 			],
 			"sid": 551214517402037
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "MOUSE",
+					"sid": 168757130918422,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "PERSONAJE"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PERSONAJE",
+					"sid": 728386785991688,
+					"parameters": {
+						"animation": "\"ESPECIAL\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 154721592261584
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "PUNTERO",
+					"sid": 747186506056289,
+					"parameters": {
+						"object": "IMG_MONEDA"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "PUNTERO",
+					"sid": 737823579696968,
+					"parameters": {
+						"frame-number": "1"
+					}
+				}
+			],
+			"sid": 111419129350351
 		}
 	],
 	"sid": 561734777682761

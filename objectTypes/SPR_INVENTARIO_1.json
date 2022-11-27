@@ -1,9 +1,17 @@
 {
-	"name": "SPR_ROBOT",
+	"name": "SPR_INVENTARIO_1",
 	"plugin-id": "Sprite",
-	"sid": 591280831074894,
+	"sid": 117076783697939,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "hayObjeto",
+			"type": "number",
+			"desc": "",
+			"show": false,
+			"sid": 478149030468282
+		}
+	],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
@@ -13,24 +21,17 @@
 					{
 						"width": 250,
 						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0.512,
+						"originY": 0.504,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5945877,
+						"imageSpriteId": 8030753,
 						"useCollisionPoly": true,
-						"imagePoints": [
-							{
-								"name": "Punto imagen 1",
-								"x": 0.5,
-								"y": 1
-							}
-						],
 						"duration": 1
 					}
 				],
-				"sid": 579276964225511,
+				"sid": 403085321632135,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -1,7 +1,7 @@
 {
-	"name": "SPR_ROBOT",
+	"name": "SPR_FUERA_DER",
 	"plugin-id": "Sprite",
-	"sid": 591280831074894,
+	"sid": 172827991715379,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,19 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5945877,
+						"imageSpriteId": 8566187,
 						"useCollisionPoly": true,
-						"imagePoints": [
-							{
-								"name": "Punto imagen 1",
-								"x": 0.5,
-								"y": 1
-							}
-						],
 						"duration": 1
 					}
 				],
-				"sid": 579276964225511,
+				"sid": 725238718309536,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

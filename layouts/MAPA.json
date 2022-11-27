@@ -151,10 +151,10 @@
 				{
 					"type": "TXT_INTRO",
 					"properties": {
-						"text": "AÑO 2173...\nTe encuentras en Ciudad 23. Una metrópolis caótica y rebosante de inmundicia. Habitada por gentes desconocedoras de un oscuro secreto. Sus vidas están gobernadas por una élite que opera en las sombras y cuyo mayor objetivo es el de controlar todo. Por desgracia, tu misión dista mucho de convertirte en el nuevo salvador de este mundo. Tienes problemas acuciantes que requieren tu total atención. Tu ordenador se ha averiado y tienes que entregar un trabajo de informática esta misma noche. El tiempo corre en tu contra. El aprobado está en juego. Corre. TU FUTURO DEPENDE DE ELLO!!...",
+						"text": "AÑO 2173...\nTe encuentras en Ciudad 23. Una metrópolis caótica y rebosante de inmundicia. Habitada por gentes desconocedoras de un oscuro secreto. Sus vidas están gobernadas por una élite que opera en las sombras y cuyo mayor objetivo es el control. Por desgracia, tu misión dista mucho de ser heroica. Tienes problemas más acuciantes que requieren tu total atención. Tu ordenador se ha averiado y tienes que entregar un trabajo de informática esta misma noche. El tiempo corre en tu contra. El aprobado está en juego. Corre. TU FUTURO DEPENDE DE ELLO!!...",
 						"enable-bbcode": true,
 						"font": "OCR A",
-						"size": 19,
+						"size": 20,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -207,8 +207,8 @@
 						"y": 1160,
 						"width": 59,
 						"height": 60,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,

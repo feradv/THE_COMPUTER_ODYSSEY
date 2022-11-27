@@ -36,6 +36,35 @@
 					}
 				},
 				{
+					"type": "SPR_FUERA_UP",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 40,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1170,
+						"y": 409,
+						"width": 1504,
+						"height": 836,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "PERSONAJE",
 					"properties": {
 						"initially-visible": true,
@@ -63,8 +92,8 @@
 						}
 					},
 					"world": {
-						"x": 513,
-						"y": 580,
+						"x": 501,
+						"y": 576,
 						"width": 256,
 						"height": 545,
 						"originX": 0.5,
@@ -96,8 +125,8 @@
 						"y": 1128,
 						"width": 59,
 						"height": 60,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
@@ -121,10 +150,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 374,
-						"y": 586,
+						"x": 353,
+						"y": 584,
 						"width": 202,
-						"height": 500,
+						"height": 443,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -238,6 +267,164 @@
 						"y": 288,
 						"width": 881,
 						"height": 136,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SPR_FUERA_DOWN",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 41,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 952,
+						"y": 974,
+						"width": 1944,
+						"height": 220,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SPR_FUERA_UP_IZQ",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 42,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 304.5,
+						"y": 222,
+						"width": 632,
+						"height": 469,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SPR_FUERA_IZQ",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 43,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 154.5,
+						"y": 629,
+						"width": 330,
+						"height": 654,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SPR_FUERA_DER",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 44,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1623,
+						"y": 539,
+						"width": 622,
+						"height": 1122,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TXT_VOZ_OFF",
+					"properties": {
+						"text": "¡¡¡SI CLARO Y QUE MÁS!!!",
+						"enable-bbcode": true,
+						"font": "OCR A",
+						"size": 40,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							0,
+							1,
+							0.8823529411764706,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 45,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -2,
+						"y": 1009,
+						"width": 823,
+						"height": 81,
 						"originX": 0,
 						"originY": 0,
 						"color": [

@@ -131,58 +131,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-object-clicked",
-					"objectClass": "MOUSE",
-					"sid": 792701507632713,
-					"parameters": {
-						"mouse-button": "left",
-						"click-type": "clicked",
-						"object-clicked": "SPR_SALIR_INF"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-mirrored",
-					"objectClass": "PERSONAJE",
-					"sid": 326007791987467,
-					"parameters": {
-						"state": "mirrored"
-					}
-				},
-				{
-					"id": "find-path",
-					"objectClass": "PERSONAJE",
-					"sid": 422668603173333,
-					"behaviorType": "Buscarutas",
-					"parameters": {
-						"x": "SPR_SALIR_INF.ImagePointX(0)",
-						"y": "SPR_SALIR_INF.ImagePointY(0)"
-					}
-				},
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 537895041898826,
-					"parameters": {
-						"seconds": "5.0"
-					}
-				},
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 566935644185850,
-					"parameters": {
-						"layout": "MAPA"
-					}
-				}
-			],
-			"sid": 287862677807084
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "on-path-found",
 					"objectClass": "PERSONAJE",
 					"sid": 496084698406712,
@@ -212,6 +160,14 @@
 				}
 			],
 			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_DIALOGO_CH_TI",
+					"sid": 836085792960053,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
 				{
 					"id": "wait",
 					"objectClass": "System",
@@ -255,7 +211,7 @@
 				{
 					"id": "destroy",
 					"objectClass": "TXT_DIALOGO_CH_TI",
-					"sid": 963517970377517
+					"sid": 538942220129459
 				}
 			],
 			"sid": 112411335224757
@@ -287,24 +243,462 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-arrived",
+					"id": "is-moving-along-path",
 					"objectClass": "PERSONAJE",
-					"sid": 613012117885977,
-					"behaviorType": "Buscarutas"
+					"sid": 548965881415428,
+					"behaviorType": "Buscarutas",
+					"isInverted": true
 				}
 			],
 			"actions": [
 				{
 					"id": "set-animation",
 					"objectClass": "PERSONAJE",
-					"sid": 984693429031949,
+					"sid": 882005182762643,
 					"parameters": {
-						"animation": "\"ESPECIAL\"",
+						"animation": "\"PARAR\"",
 						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 510325349826988,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "stop-animation",
+					"objectClass": "PERSONAJE",
+					"sid": 345142893646076
+				}
+			],
+			"sid": 209636964649870
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "MOUSE",
+					"sid": 587767951152794,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "SPR_SALIR_INF"
 					}
 				}
 			],
-			"sid": 774027797308934
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "PERSONAJE",
+					"sid": 363953566511149,
+					"behaviorType": "Buscarutas",
+					"parameters": {
+						"set": "enabled"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "PERSONAJE",
+					"sid": 949720460448576,
+					"parameters": {
+						"state": "mirrored"
+					}
+				},
+				{
+					"id": "find-path",
+					"objectClass": "PERSONAJE",
+					"sid": 865899662836174,
+					"behaviorType": "Buscarutas",
+					"parameters": {
+						"x": "SPR_SALIR_INF.ImagePointX(0)",
+						"y": "SPR_SALIR_INF.ImagePointY(0)"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 543453999227374,
+					"parameters": {
+						"seconds": "5.0"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 183473610566088,
+					"parameters": {
+						"layout": "MAPA"
+					}
+				}
+			],
+			"sid": 265685210971450
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "MOUSE",
+					"sid": 494752657641515,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 553182247002678,
+					"parameters": {
+						"first-value": "MOUSE.X",
+						"comparison": 2,
+						"second-value": "PERSONAJE.X"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "PERSONAJE",
+					"sid": 194870739119398,
+					"behaviorType": "Buscarutas",
+					"parameters": {
+						"set": "enabled"
+					}
+				},
+				{
+					"id": "find-path",
+					"objectClass": "PERSONAJE",
+					"sid": 702827256057348,
+					"behaviorType": "Buscarutas",
+					"parameters": {
+						"x": "MOUSE.X",
+						"y": "MOUSE.Y-256"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "PERSONAJE",
+					"sid": 728201568085138,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 334017263799672
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "MOUSE",
+					"sid": 747628291902342,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 650495128561248,
+					"parameters": {
+						"first-value": "MOUSE.X",
+						"comparison": 5,
+						"second-value": "PERSONAJE.X"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "PERSONAJE",
+					"sid": 176112001928711,
+					"behaviorType": "Buscarutas",
+					"parameters": {
+						"set": "enabled"
+					}
+				},
+				{
+					"id": "find-path",
+					"objectClass": "PERSONAJE",
+					"sid": 756578944408662,
+					"behaviorType": "Buscarutas",
+					"parameters": {
+						"x": "MOUSE.X",
+						"y": "MOUSE.Y-256"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "PERSONAJE",
+					"sid": 848189481765328,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 533729610053909
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "MOUSE",
+					"sid": 881780956462748,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "SPR_FUERA_UP"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "PERSONAJE",
+					"sid": 878787192779710,
+					"behaviorType": "Buscarutas",
+					"parameters": {
+						"set": "disabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_VOZ_OFF",
+					"sid": 881051113865858,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 342287652150320,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_VOZ_OFF",
+					"sid": 361013949185343,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 507591937225012
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "MOUSE",
+					"sid": 197212349626577,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "SPR_FUERA_DOWN"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "PERSONAJE",
+					"sid": 226692494365284,
+					"behaviorType": "Buscarutas",
+					"parameters": {
+						"set": "disabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_VOZ_OFF",
+					"sid": 467901948352371,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 379539918411980,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_VOZ_OFF",
+					"sid": 574980203424582,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 531209225640235
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "MOUSE",
+					"sid": 725357035239940,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "SPR_FUERA_UP_IZQ"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "PERSONAJE",
+					"sid": 117600951720614,
+					"behaviorType": "Buscarutas",
+					"parameters": {
+						"set": "disabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_VOZ_OFF",
+					"sid": 879523246135023,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 683149716249984,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_VOZ_OFF",
+					"sid": 711472235429765,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 402828015715215
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "MOUSE",
+					"sid": 593133322868741,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "SPR_FUERA_IZQ"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "PERSONAJE",
+					"sid": 370068010026675,
+					"behaviorType": "Buscarutas",
+					"parameters": {
+						"set": "disabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_VOZ_OFF",
+					"sid": 611686515517445,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 819569635979306,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_VOZ_OFF",
+					"sid": 982149431629889,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 913123571529641
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "MOUSE",
+					"sid": 952783623791530,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "SPR_FUERA_DER"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "PERSONAJE",
+					"sid": 689945071275536,
+					"behaviorType": "Buscarutas",
+					"parameters": {
+						"set": "disabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_VOZ_OFF",
+					"sid": 194504118906507,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 757157971710730,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_VOZ_OFF",
+					"sid": 862449291134119,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 491724737520481
 		}
 	],
 	"sid": 929050470403862
