@@ -1443,6 +1443,22 @@
 					"parameters": {
 						"text": "\"FIN....\""
 					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 818096354521661,
+					"parameters": {
+						"seconds": "5.0"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 708149337478348,
+					"parameters": {
+						"layout": "MENU"
+					}
 				}
 			],
 			"sid": 204179857174446

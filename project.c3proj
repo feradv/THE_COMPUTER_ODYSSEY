@@ -31,6 +31,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Pathfinding",
 			"name": "Busca-rutas",
@@ -100,7 +108,8 @@
 			"IMG_CAMARA",
 			"IMG_BOLSA",
 			"FE_FINAL",
-			"TXT_VOZ_OFF_PU"
+			"TXT_VOZ_OFF_PU",
+			"AUDIO_MENU"
 		],
 		"subfolders": []
 	},
@@ -134,7 +143,16 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "videoplayback.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 258525916006087,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"music": {

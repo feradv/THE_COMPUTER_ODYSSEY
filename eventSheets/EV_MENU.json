@@ -69,6 +69,18 @@
 						"mode": "disable",
 						"effect": "\"Pixelar\""
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "AUDIO_MENU",
+					"sid": 716889120070709,
+					"parameters": {
+						"audio-file": "videoplayback",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 444801892125066
