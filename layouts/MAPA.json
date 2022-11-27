@@ -109,7 +109,7 @@
 				{
 					"type": "TXT_PUESTO",
 					"properties": {
-						"text": "PUESTO COMIDA",
+						"text": "PUESTO COMERCIAL",
 						"enable-bbcode": true,
 						"font": "OCR A",
 						"size": 40,

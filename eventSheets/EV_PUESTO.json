@@ -809,9 +809,9 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 892981080814626,
+							"sid": 312580872206506,
 							"parameters": {
-								"seconds": "1.0"
+								"seconds": "2.0"
 							}
 						},
 						{
@@ -842,15 +842,381 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 466311370038271,
+							"sid": 579427866442254,
 							"parameters": {
-								"seconds": "1.0"
+								"seconds": "2.0"
 							}
 						},
 						{
 							"id": "set-text",
 							"objectClass": "TXT_DIALOGO_ROB",
-							"sid": 214381845350761,
+							"sid": 743951359137107,
+							"parameters": {
+								"text": "\"¡¡Eh viejo!!¡¡La pasma!!\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 484188991268865,
+							"parameters": {
+								"seconds": "2.0"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_ROB",
+							"sid": 747296748261524,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_VEN",
+							"sid": 284817303861012,
+							"parameters": {
+								"text": "\"¡Eh!¡¡¿¿Dónde??!!\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 728031612907308,
+							"parameters": {
+								"seconds": "2.0"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_VEN",
+							"sid": 322923593630099,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_ROB",
+							"sid": 913771149473621,
+							"parameters": {
+								"text": "\"Jajajajaj\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 705965865041216,
+							"parameters": {
+								"seconds": "2.0"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_ROB",
+							"sid": 920335427098612,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_VEN",
+							"sid": 782795896462055,
+							"parameters": {
+								"text": "\"......\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 812147930497423,
+							"parameters": {
+								"seconds": "2.0"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_VEN",
+							"sid": 334620006233467,
+							"parameters": {
+								"text": "\".....te odio.....\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 154157515018116,
+							"parameters": {
+								"seconds": "2.0"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_VEN",
+							"sid": 448894586056411,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_ROB",
+							"sid": 546794397309106,
+							"parameters": {
+								"text": "\"Ahí lo tienes......de nada.\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 458290161737800,
+							"parameters": {
+								"seconds": "2.0"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_ROB",
+							"sid": 100906443571592,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_CH_PU",
+							"sid": 663549113834609,
+							"parameters": {
+								"text": "\"Gracias.....supongo\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 690904486849612,
+							"parameters": {
+								"seconds": "2.0"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_VEN",
+							"sid": 901558505931737,
+							"parameters": {
+								"text": "\"¿Qué quieres chico? Tengo muchas cosas que hacer...(bostezo)\""
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_CH_PU",
+							"sid": 162901795784680,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 858586789103624,
+							"parameters": {
+								"seconds": "2.0"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_VEN",
+							"sid": 252859110105454,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_CH_PU",
+							"sid": 729939659494673,
+							"parameters": {
+								"text": "\"¿?\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 571922701523385,
+							"parameters": {
+								"seconds": "2.0"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_CH_PU",
+							"sid": 924695140956973,
+							"parameters": {
+								"text": "\"Si, perdona. Mi ordenador no funciona...\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 486471595534526,
+							"parameters": {
+								"seconds": "2.0"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_CH_PU",
+							"sid": 415091371192451,
+							"parameters": {
+								"text": "\"Debido a la tormenta, ha habido una caída de tensión y la psu de mi ordenador no funciona bien...\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 919818438329218,
+							"parameters": {
+								"seconds": "2.0"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_CH_PU",
+							"sid": 220918297072722,
+							"parameters": {
+								"text": "\"El ordenador se apaga solo a cada rato y la gráfica hace un ruido muy raro...\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 438198418844924,
+							"parameters": {
+								"seconds": "2.0"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_CH_PU",
+							"sid": 755062409877272,
+							"parameters": {
+								"text": "\"Además uno de los ventiladores tampoco gira...\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 934336863214438,
+							"parameters": {
+								"seconds": "2.0"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_CH_PU",
+							"sid": 281113627958722,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_ROB",
+							"sid": 558089872449540,
+							"parameters": {
+								"text": "\"No he entendido nada...\""
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_VEN",
+							"sid": 419717888059923,
+							"parameters": {
+								"text": "\"Estos jóvenes de hoy en día usan una jerga muy rara....\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 174556860986285,
+							"parameters": {
+								"seconds": "2.0"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_ROB",
+							"sid": 124203744446452,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_VEN",
+							"sid": 234454852946322,
+							"parameters": {
+								"text": "\"Pero creo que tengo justo lo que necesitas....dame un segundo que miro....\""
+							}
+						},
+						{
+							"id": "typewriter-text",
+							"objectClass": "TXT_DIALOGO_CH_PU",
+							"sid": 792179639566312,
+							"parameters": {
+								"text": "\"......\"",
+								"duration": "10"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 923477339725854,
+							"parameters": {
+								"seconds": "10.0"
+							}
+						},
+						{
+							"id": "typewriter-finish",
+							"objectClass": "TXT_DIALOGO_CH_PU",
+							"sid": 440590936555541
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_CH_PU",
+							"sid": 951111468595682,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_VEN",
+							"sid": 915542523418420,
+							"parameters": {
+								"text": "\"Eso es.....aquí está todo. Toma\""
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "IMG_BOLSA",
+							"sid": 241714295014434,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 266125197439485,
+							"parameters": {
+								"seconds": "2.0"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_VEN",
+							"sid": 612304966622165,
 							"parameters": {
 								"text": "\"\""
 							}
@@ -881,6 +1247,112 @@
 					"sid": 530119859290138
 				}
 			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "PUNTERO",
+					"sid": 504702438688706,
+					"parameters": {
+						"object": "IMG_BOLSA"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "PUNTERO",
+					"sid": 288240910199710,
+					"parameters": {
+						"frame-number": "1"
+					}
+				}
+			],
+			"sid": 698371550548028
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "MOUSE",
+					"sid": 776502395584583,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "IMG_BOLSA"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "IMG_BOLSA",
+					"sid": 177125071134716,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "IMG_CAMARA",
+					"sid": 957495176570536,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "IMG_COOLER",
+					"sid": 254581295684574,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "IMG_BATERIA",
+					"sid": 596347506797839,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_CH_PU",
+					"sid": 720791417541534,
+					"parameters": {
+						"text": "\"¡NO ME JODAS!¡¡¿¿PERO ESTO QUÉ ES!!??\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 965146122362150,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_ROB",
+					"sid": 703983224242578,
+					"parameters": {
+						"text": "\"Jajajajaj\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_VEN",
+					"sid": 952038757845281,
+					"parameters": {
+						"text": "\"....ZZzzZZZzzzzZ....\""
+					}
+				}
+			],
+			"sid": 204179857174446
 		}
 	],
 	"sid": 561734777682761

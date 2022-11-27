@@ -89,15 +89,16 @@
 			"IMG_MONEDA",
 			"SPR_INVENTARIO_2",
 			"SPR_INVENTARIO_3",
-			"IMG_CPU",
 			"IMG_COOLER",
-			"IMG_PASTE",
 			"SPR_FUERA_UP",
 			"SPR_FUERA_DOWN",
 			"SPR_FUERA_UP_IZQ",
 			"SPR_FUERA_IZQ",
 			"SPR_FUERA_DER",
-			"TXT_VOZ_OFF"
+			"TXT_VOZ_OFF",
+			"IMG_BATERIA",
+			"IMG_CAMARA",
+			"IMG_BOLSA"
 		],
 		"subfolders": []
 	},

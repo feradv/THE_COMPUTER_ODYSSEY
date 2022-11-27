@@ -1,7 +1,7 @@
 {
-	"name": "IMG_PASTE",
+	"name": "IMG_BOLSA",
 	"plugin-id": "Sprite",
-	"sid": 988735754696225,
+	"sid": 917888727166605,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,19 +11,19 @@
 			{
 				"frames": [
 					{
-						"width": 512,
-						"height": 512,
+						"width": 690,
+						"height": 930,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3051014,
+						"imageSpriteId": 6774146,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 275738210276853,
+				"sid": 821338136658002,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,
