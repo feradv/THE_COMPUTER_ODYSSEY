@@ -149,48 +149,6 @@
 					}
 				},
 				{
-					"type": "TXT_RECREATIVA",
-					"properties": {
-						"text": "SALA RECREATIVA",
-						"enable-bbcode": true,
-						"font": "OCR A",
-						"size": 40,
-						"line-height": 0,
-						"bold": true,
-						"italic": false,
-						"color": [
-							0,
-							1,
-							0.8823529411764706,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 13,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1355,
-						"y": 121,
-						"width": 587,
-						"height": 70,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "TXT_INTRO",
 					"properties": {
 						"text": "AÑO 2173...\nTe encuentras en Ciudad 23. Una metrópolis caótica y rebosante de inmundicia. Habitada por gentes desconocedoras de un oscuro secreto. Sus vidas están gobernadas por una élite que opera en las sombras y cuyo mayor objetivo es el de controlar todo. Por desgracia, tu misión dista mucho de convertirte en el nuevo salvador de este mundo. Tienes problemas acuciantes que requieren tu total atención. Tu ordenador se ha averiado y tienes que entregar un trabajo de informática esta misma noche. El tiempo corre en tu contra. El aprobado está en juego. Corre. TU FUTURO DEPENDE DE ELLO!!...",
@@ -307,35 +265,6 @@
 						"y": 543.5,
 						"width": 250,
 						"height": 171,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "SPR_RECREATIVA",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": false,
-						"live-preview": false
-					},
-					"uid": 9,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1644.5,
-						"y": 296,
-						"width": 357,
-						"height": 212,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

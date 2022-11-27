@@ -36,6 +36,15 @@
 						"x": "SPR_PR_PUESTO.ImagePointX(0)",
 						"y": "SPR_PR_PUESTO.ImagePointY(0)"
 					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "PERSONAJE",
+					"sid": 853557334735683,
+					"parameters": {
+						"animation": "\"PARAR\"",
+						"from": "beginning"
+					}
 				}
 			],
 			"sid": 889435745118655
@@ -69,33 +78,6 @@
 				}
 			],
 			"sid": 153785869323593
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-object-clicked",
-					"objectClass": "MOUSE",
-					"sid": 456936643192815,
-					"parameters": {
-						"mouse-button": "left",
-						"click-type": "clicked",
-						"object-clicked": "PERSONAJE"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "PERSONAJE",
-					"sid": 574310834450668,
-					"parameters": {
-						"animation": "\"ESPECIAL\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 469262113653005
 		},
 		{
 			"eventType": "block",
@@ -284,9 +266,9 @@
 				{
 					"id": "set-text",
 					"objectClass": "TXT_DIALOGO_CH_PU",
-					"sid": 916943067304482,
+					"sid": 623427018862334,
 					"parameters": {
-						"text": "\"HOOOOLAAAAAA!!!!\""
+						"text": "\"¡¡¡¡HOOOOLAAAAAA!!!!\""
 					}
 				},
 				{
@@ -436,9 +418,9 @@
 				{
 					"id": "set-text",
 					"objectClass": "TXT_DIALOGO_CH_PU",
-					"sid": 489384757152855,
+					"sid": 445254637976553,
 					"parameters": {
-						"text": "\"Genial!!\""
+						"text": "\"¡¡Genial!!\""
 					}
 				},
 				{
@@ -484,9 +466,9 @@
 				{
 					"id": "set-text",
 					"objectClass": "TXT_DIALOGO_CH_PU",
-					"sid": 659905568840896,
+					"sid": 539734469244835,
 					"parameters": {
-						"text": "\"Errr...No tengo tanto dinero...¿no habría otra forma?\""
+						"text": "\"Te doy 50...\""
 					}
 				},
 				{
@@ -500,9 +482,9 @@
 				{
 					"id": "set-text",
 					"objectClass": "TXT_DIALOGO_ROB",
-					"sid": 118828076618351,
+					"sid": 828713337707890,
 					"parameters": {
-						"text": "\"Mmmm....está bien...traeme una bolsa de chuches de la sala recreativa...\""
+						"text": "\"Mmmm....hecho....\""
 					}
 				},
 				{
@@ -516,15 +498,15 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 179235562300769,
+					"sid": 996837864963023,
 					"parameters": {
-						"seconds": "4.0"
+						"seconds": "2.0"
 					}
 				},
 				{
 					"id": "set-text",
 					"objectClass": "TXT_DIALOGO_ROB",
-					"sid": 132076090146088,
+					"sid": 917278314576049,
 					"parameters": {
 						"text": "\"\""
 					}
@@ -579,33 +561,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-object-clicked",
-					"objectClass": "MOUSE",
-					"sid": 603946417146500,
-					"parameters": {
-						"mouse-button": "left",
-						"click-type": "clicked",
-						"object-clicked": "PERSONAJE"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "PERSONAJE",
-					"sid": 770287388648193,
-					"parameters": {
-						"animation": "\"ESPECIAL\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 422522014329660
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "on-arrived",
 					"objectClass": "PERSONAJE",
 					"sid": 869475610846258,
@@ -616,9 +571,9 @@
 				{
 					"id": "set-animation",
 					"objectClass": "PERSONAJE",
-					"sid": 908776847662309,
+					"sid": 126145382201024,
 					"parameters": {
-						"animation": "\"PARAR\"",
+						"animation": "\"ESPECIAL\"",
 						"from": "beginning"
 					}
 				}

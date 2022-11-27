@@ -126,14 +126,6 @@
 				},
 				{
 					"id": "set-visible",
-					"objectClass": "TXT_RECREATIVA",
-					"sid": 194396024223090,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				},
-				{
-					"id": "set-visible",
 					"objectClass": "TXT_TIENDA",
 					"sid": 634666496627571,
 					"parameters": {
@@ -142,38 +134,6 @@
 				}
 			],
 			"sid": 201157105931149
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "is-overlapping-another-object",
-					"objectClass": "PUNTERO",
-					"sid": 191995520905743,
-					"parameters": {
-						"object": "SPR_RECREATIVA"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation-frame",
-					"objectClass": "PUNTERO",
-					"sid": 164253246567706,
-					"parameters": {
-						"frame-number": "1"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "TXT_RECREATIVA",
-					"sid": 867110455154568,
-					"parameters": {
-						"visibility": "visible"
-					}
-				}
-			],
-			"sid": 218869237258044
 		},
 		{
 			"eventType": "block",
@@ -293,14 +253,6 @@
 					}
 				},
 				{
-					"id": "set-collisions-enabled",
-					"objectClass": "SPR_RECREATIVA",
-					"sid": 790717641509843,
-					"parameters": {
-						"collisions": "enabled"
-					}
-				},
-				{
 					"id": "typewriter-finish",
 					"objectClass": "TXT_INTRO",
 					"sid": 796195402037934
@@ -342,41 +294,6 @@
 				}
 			],
 			"sid": 547893259078726
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-object-clicked",
-					"objectClass": "MOUSE",
-					"sid": 562021603341464,
-					"parameters": {
-						"mouse-button": "left",
-						"click-type": "clicked",
-						"object-clicked": "SPR_RECREATIVA"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 733851002851894,
-					"parameters": {
-						"variable": "tiendaActiva",
-						"value": "1"
-					}
-				},
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 492303967019974,
-					"parameters": {
-						"layout": "RECREATIVOS"
-					}
-				}
-			],
-			"sid": 962107588254706
 		}
 	],
 	"sid": 559018905297445

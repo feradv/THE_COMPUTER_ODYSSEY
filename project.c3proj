@@ -31,6 +31,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Arr",
+			"name": "Matriz",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Pathfinding",
 			"name": "Busca-rutas",
@@ -57,10 +65,8 @@
 			"TXT_TITULO",
 			"BG_MAPA",
 			"SPR_TIENDA",
-			"SPR_RECREATIVA",
 			"SPR_PUESTO",
 			"SPR_FONDO_MAPA",
-			"TXT_RECREATIVA",
 			"TXT_TIENDA",
 			"TXT_PUESTO",
 			"TXT_INTRO",
@@ -79,14 +85,7 @@
 			"TXT_SALIDA_PUESTO",
 			"SPR_PR_PUESTO",
 			"TXT_DIALOGO_CH_TI",
-			"BG_RECREATIVA",
-			"recreativaColumna",
-			"recreativaSillon",
-			"recreativaRespaldo",
-			"recreativaLado",
-			"recreativaLado2",
-			"recreativaCopia",
-			"SPR_MAQUINA_EXP"
+			"INVENTARIO"
 		],
 		"subfolders": []
 	},
@@ -101,8 +100,7 @@
 			"MENU",
 			"MAPA",
 			"TIENDA",
-			"PUESTO",
-			"RECREATIVOS"
+			"PUESTO"
 		],
 		"subfolders": []
 	},
@@ -111,8 +109,7 @@
 			"EV_MENU",
 			"EV_MAPA",
 			"EV_TIENDA",
-			"EV_PUESTO",
-			"EV_RECREATIVOS"
+			"EV_PUESTO"
 		],
 		"subfolders": []
 	},

@@ -207,7 +207,18 @@
 		}
 	],
 	"sid": 173923913159261,
-	"nonworld-instances": [],
+	"nonworld-instances": [
+		{
+			"type": "INVENTARIO",
+			"properties": {
+				"width": 3,
+				"height": 1,
+				"depth": 1
+			},
+			"uid": 47,
+			"instanceVariables": {}
+		}
+	],
 	"effectTypes": [],
 	"width": 3840,
 	"height": 2160,

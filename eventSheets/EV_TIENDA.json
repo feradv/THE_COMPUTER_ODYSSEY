@@ -264,33 +264,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-object-clicked",
-					"objectClass": "MOUSE",
-					"sid": 320296571197599,
-					"parameters": {
-						"mouse-button": "left",
-						"click-type": "clicked",
-						"object-clicked": "PERSONAJE"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "PERSONAJE",
-					"sid": 175921808208648,
-					"parameters": {
-						"animation": "\"ESPECIAL\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 575655516677080
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "is-moving-along-path",
 					"objectClass": "PERSONAJE",
 					"sid": 552037951208176,
@@ -324,9 +297,9 @@
 				{
 					"id": "set-animation",
 					"objectClass": "PERSONAJE",
-					"sid": 224669628785142,
+					"sid": 984693429031949,
 					"parameters": {
-						"animation": "\"PARAR\"",
+						"animation": "\"ESPECIAL\"",
 						"from": "beginning"
 					}
 				}
