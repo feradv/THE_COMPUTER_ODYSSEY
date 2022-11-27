@@ -570,6 +570,43 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "is-moving-along-path",
+					"objectClass": "PERSONAJE",
+					"sid": 734014288442696,
+					"behaviorType": "Buscarutas",
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PERSONAJE",
+					"sid": 507032556900092,
+					"parameters": {
+						"animation": "\"PARAR\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 768111261630883,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "stop-animation",
+					"objectClass": "PERSONAJE",
+					"sid": 812008665632614
+				}
+			],
+			"sid": 446226817865433
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "is-overlapping-another-object",
 					"objectClass": "PUNTERO",
 					"sid": 858713454045781,
@@ -698,6 +735,14 @@
 						"animation": "\"ESPECIAL\"",
 						"from": "beginning"
 					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_ROB",
+					"sid": 345963364836368,
+					"parameters": {
+						"text": "\"\""
+					}
 				}
 			],
 			"sid": 154721592261584
@@ -725,6 +770,117 @@
 				}
 			],
 			"sid": 111419129350351
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drop",
+					"objectClass": "IMG_MONEDA",
+					"sid": 699310649550603,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [],
+			"sid": 571645357959916,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "IMG_MONEDA",
+							"sid": 156565607445435,
+							"parameters": {
+								"object": "SPR_ROBOT"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-enabled",
+							"objectClass": "IMG_MONEDA",
+							"sid": 917972300424143,
+							"behaviorType": "ArrastrarYSoltar",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 892981080814626,
+							"parameters": {
+								"seconds": "1.0"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "IMG_MONEDA",
+							"sid": 588387405408283,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "IMG_MONEDA",
+							"sid": 977342621718663,
+							"parameters": {
+								"x": "907",
+								"y": "842.5"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_ROB",
+							"sid": 565641160334419,
+							"parameters": {
+								"text": "\"¡¡Vaya....gracias...!!\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 466311370038271,
+							"parameters": {
+								"seconds": "1.0"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_ROB",
+							"sid": 214381845350761,
+							"parameters": {
+								"text": "\"\""
+							}
+						}
+					],
+					"sid": 661446247214677
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 605944825090599
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "IMG_MONEDA",
+							"sid": 400707388489945,
+							"parameters": {
+								"x": "1355",
+								"y": "98"
+							}
+						}
+					],
+					"sid": 530119859290138
+				}
+			]
 		}
 	],
 	"sid": 561734777682761
