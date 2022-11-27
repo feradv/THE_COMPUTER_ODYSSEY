@@ -201,6 +201,14 @@
 					}
 				},
 				{
+					"id": "set-visible",
+					"objectClass": "TXT_VOZ_OFF_TI",
+					"sid": 785210379303756,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
 					"id": "wait",
 					"objectClass": "System",
 					"sid": 640555696043605,
@@ -463,34 +471,34 @@
 				{
 					"id": "set-enabled",
 					"objectClass": "PERSONAJE",
-					"sid": 878787192779710,
+					"sid": 348354737272572,
 					"behaviorType": "Buscarutas",
 					"parameters": {
 						"set": "disabled"
 					}
 				},
 				{
-					"id": "set-visible",
-					"objectClass": "TXT_VOZ_OFF",
-					"sid": 881051113865858,
+					"id": "set-text",
+					"objectClass": "TXT_VOZ_OFF_TI",
+					"sid": 785826124756859,
 					"parameters": {
-						"visibility": "visible"
+						"text": "\"¡¡¡SI CLARO Y QUE MÁS!!!\""
 					}
 				},
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 342287652150320,
+					"sid": 195456357248216,
 					"parameters": {
-						"seconds": "1.0"
+						"seconds": "2.0"
 					}
 				},
 				{
-					"id": "set-visible",
-					"objectClass": "TXT_VOZ_OFF",
-					"sid": 361013949185343,
+					"id": "set-text",
+					"objectClass": "TXT_VOZ_OFF_TI",
+					"sid": 213755523489092,
 					"parameters": {
-						"visibility": "invisible"
+						"text": "\"# BUSCA EN EL MAPA OTRO SITIO DONDE COMPRAR LOS COMPONENTES DEL ORDENADOR. #\""
 					}
 				}
 			],
@@ -521,27 +529,27 @@
 					}
 				},
 				{
-					"id": "set-visible",
-					"objectClass": "TXT_VOZ_OFF",
-					"sid": 467901948352371,
+					"id": "set-text",
+					"objectClass": "TXT_VOZ_OFF_TI",
+					"sid": 367447216491547,
 					"parameters": {
-						"visibility": "visible"
+						"text": "\"¡¡¡SI CLARO Y QUE MÁS!!!\""
 					}
 				},
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 379539918411980,
+					"sid": 699802129327754,
 					"parameters": {
-						"seconds": "1.0"
+						"seconds": "2.0"
 					}
 				},
 				{
-					"id": "set-visible",
-					"objectClass": "TXT_VOZ_OFF",
-					"sid": 574980203424582,
+					"id": "set-text",
+					"objectClass": "TXT_VOZ_OFF_TI",
+					"sid": 710740190564291,
 					"parameters": {
-						"visibility": "invisible"
+						"text": "\"# BUSCA EN EL MAPA OTRO SITIO DONDE COMPRAR LOS COMPONENTES DEL ORDENADOR. #\""
 					}
 				}
 			],
@@ -572,27 +580,27 @@
 					}
 				},
 				{
-					"id": "set-visible",
-					"objectClass": "TXT_VOZ_OFF",
-					"sid": 879523246135023,
+					"id": "set-text",
+					"objectClass": "TXT_VOZ_OFF_TI",
+					"sid": 499589620500208,
 					"parameters": {
-						"visibility": "visible"
+						"text": "\"¡¡¡SI CLARO Y QUE MÁS!!!\""
 					}
 				},
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 683149716249984,
+					"sid": 288497309960653,
 					"parameters": {
-						"seconds": "1.0"
+						"seconds": "2.0"
 					}
 				},
 				{
-					"id": "set-visible",
-					"objectClass": "TXT_VOZ_OFF",
-					"sid": 711472235429765,
+					"id": "set-text",
+					"objectClass": "TXT_VOZ_OFF_TI",
+					"sid": 627506923713706,
 					"parameters": {
-						"visibility": "invisible"
+						"text": "\"# BUSCA EN EL MAPA OTRO SITIO DONDE COMPRAR LOS COMPONENTES DEL ORDENADOR. #\""
 					}
 				}
 			],
@@ -623,27 +631,27 @@
 					}
 				},
 				{
-					"id": "set-visible",
-					"objectClass": "TXT_VOZ_OFF",
-					"sid": 611686515517445,
+					"id": "set-text",
+					"objectClass": "TXT_VOZ_OFF_TI",
+					"sid": 677601913864821,
 					"parameters": {
-						"visibility": "visible"
+						"text": "\"¡¡¡SI CLARO Y QUE MÁS!!!\""
 					}
 				},
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 819569635979306,
+					"sid": 722799903665078,
 					"parameters": {
-						"seconds": "1.0"
+						"seconds": "2.0"
 					}
 				},
 				{
-					"id": "set-visible",
-					"objectClass": "TXT_VOZ_OFF",
-					"sid": 982149431629889,
+					"id": "set-text",
+					"objectClass": "TXT_VOZ_OFF_TI",
+					"sid": 588845128250713,
 					"parameters": {
-						"visibility": "invisible"
+						"text": "\"# BUSCA EN EL MAPA OTRO SITIO DONDE COMPRAR LOS COMPONENTES DEL ORDENADOR. #\""
 					}
 				}
 			],
@@ -674,27 +682,27 @@
 					}
 				},
 				{
-					"id": "set-visible",
-					"objectClass": "TXT_VOZ_OFF",
-					"sid": 194504118906507,
+					"id": "set-text",
+					"objectClass": "TXT_VOZ_OFF_TI",
+					"sid": 982145554488028,
 					"parameters": {
-						"visibility": "visible"
+						"text": "\"¡¡¡SI CLARO Y QUE MÁS!!!\""
 					}
 				},
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 757157971710730,
+					"sid": 774889054238106,
 					"parameters": {
-						"seconds": "1.0"
+						"seconds": "2.0"
 					}
 				},
 				{
-					"id": "set-visible",
-					"objectClass": "TXT_VOZ_OFF",
-					"sid": 862449291134119,
+					"id": "set-text",
+					"objectClass": "TXT_VOZ_OFF_TI",
+					"sid": 610399319462797,
 					"parameters": {
-						"visibility": "invisible"
+						"text": "\"# BUSCA EN EL MAPA OTRO SITIO DONDE COMPRAR LOS COMPONENTES DEL ORDENADOR. #\""
 					}
 				}
 			],

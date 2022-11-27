@@ -475,9 +475,9 @@
 				{
 					"id": "set-text",
 					"objectClass": "TXT_DIALOGO_CH_PU",
-					"sid": 539734469244835,
+					"sid": 191367970420645,
 					"parameters": {
-						"text": "\"Te doy 50...\""
+						"text": "\"No tengo tanto dinero...Te doy 50...\""
 					}
 				},
 				{
@@ -518,6 +518,14 @@
 					"sid": 917278314576049,
 					"parameters": {
 						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_VOZ_OFF_PU",
+					"sid": 372745337666122,
+					"parameters": {
+						"text": "\"# DALE AL ROBOT UNA MONEDA DE 50 PESETAS. #\""
 					}
 				}
 			],
@@ -798,6 +806,19 @@
 					],
 					"actions": [
 						{
+							"id": "destroy",
+							"objectClass": "SPR_VENDEDOR",
+							"sid": 734534060730689
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_VOZ_OFF_PU",
+							"sid": 358063802527720,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
 							"id": "set-enabled",
 							"objectClass": "IMG_MONEDA",
 							"sid": 917972300424143,
@@ -994,7 +1015,7 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 690904486849612,
+							"sid": 365393158825253,
 							"parameters": {
 								"seconds": "2.0"
 							}
@@ -1018,9 +1039,9 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 858586789103624,
+							"sid": 981419860001567,
 							"parameters": {
-								"seconds": "2.0"
+								"seconds": "3.0"
 							}
 						},
 						{
@@ -1058,7 +1079,7 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 486471595534526,
+							"sid": 812063015999456,
 							"parameters": {
 								"seconds": "2.0"
 							}
@@ -1074,9 +1095,9 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 919818438329218,
+							"sid": 976408870511224,
 							"parameters": {
-								"seconds": "2.0"
+								"seconds": "4.0"
 							}
 						},
 						{
@@ -1090,9 +1111,9 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 438198418844924,
+							"sid": 914571181124774,
 							"parameters": {
-								"seconds": "2.0"
+								"seconds": "4.0"
 							}
 						},
 						{
@@ -1106,9 +1127,9 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 934336863214438,
+							"sid": 577729362479001,
 							"parameters": {
-								"seconds": "2.0"
+								"seconds": "3.0"
 							}
 						},
 						{
@@ -1128,6 +1149,22 @@
 							}
 						},
 						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 958242519025158,
+							"parameters": {
+								"seconds": "2.0"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_ROB",
+							"sid": 622320251419851,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
 							"id": "set-text",
 							"objectClass": "TXT_DIALOGO_VEN",
 							"sid": 419717888059923,
@@ -1138,17 +1175,9 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 174556860986285,
+							"sid": 157373970724861,
 							"parameters": {
-								"seconds": "2.0"
-							}
-						},
-						{
-							"id": "set-text",
-							"objectClass": "TXT_DIALOGO_ROB",
-							"sid": 124203744446452,
-							"parameters": {
-								"text": "\"\""
+								"seconds": "3.0"
 							}
 						},
 						{
@@ -1330,9 +1359,17 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 965146122362150,
+					"sid": 194897777898992,
 					"parameters": {
-						"seconds": "1.0"
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_CH_PU",
+					"sid": 592061375239629,
+					"parameters": {
+						"text": "\"\""
 					}
 				},
 				{
@@ -1349,6 +1386,62 @@
 					"sid": 952038757845281,
 					"parameters": {
 						"text": "\"....ZZzzZZZzzzzZ....\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 686728427809824,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_ROB",
+					"sid": 978967493801549,
+					"parameters": {
+						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_VEN",
+					"sid": 404626062681453,
+					"parameters": {
+						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_DIALOGO_CH_PU",
+					"sid": 451486934980946,
+					"parameters": {
+						"text": "\"¡¡VOY A SUSPENDEEEERR!!\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 962826865943723,
+					"parameters": {
+						"seconds": "5.0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "FE_FINAL",
+					"sid": 316704463276064,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_VOZ_OFF_PU",
+					"sid": 486978299371529,
+					"parameters": {
+						"text": "\"FIN....\""
 					}
 				}
 			],

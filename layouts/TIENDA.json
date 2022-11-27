@@ -36,6 +36,77 @@
 					}
 				},
 				{
+					"type": "SPR_FUERA_DOWN",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 41,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 950,
+						"y": 973,
+						"width": 1944,
+						"height": 220,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TXT_VOZ_OFF_TI",
+					"properties": {
+						"text": "# BUSCA EN EL MAPA OTRO SITIO DONDE COMPRAR LOS COMPONENTES DEL ORDENADOR. #",
+						"enable-bbcode": true,
+						"font": "OCR A",
+						"size": 30,
+						"line-height": 0,
+						"bold": true,
+						"italic": true,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 45,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -2,
+						"y": 972,
+						"width": 1055,
+						"height": 108,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "SPR_FUERA_UP",
 					"properties": {
 						"initially-visible": true,
@@ -280,35 +351,6 @@
 					}
 				},
 				{
-					"type": "SPR_FUERA_DOWN",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 41,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 952,
-						"y": 974,
-						"width": 1944,
-						"height": 220,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "SPR_FUERA_UP_IZQ",
 					"properties": {
 						"initially-visible": true,
@@ -385,48 +427,6 @@
 						"height": 1122,
 						"originX": 0.5,
 						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "TXT_VOZ_OFF",
-					"properties": {
-						"text": "¡¡¡SI CLARO Y QUE MÁS!!!",
-						"enable-bbcode": true,
-						"font": "OCR A",
-						"size": 40,
-						"line-height": 0,
-						"bold": true,
-						"italic": false,
-						"color": [
-							0,
-							1,
-							0.8823529411764706,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": false,
-						"origin": "top-left"
-					},
-					"uid": 45,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": -2,
-						"y": 1009,
-						"width": 823,
-						"height": 81,
-						"originX": 0,
-						"originY": 0,
 						"color": [
 							1,
 							1,

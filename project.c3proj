@@ -95,10 +95,12 @@
 			"SPR_FUERA_UP_IZQ",
 			"SPR_FUERA_IZQ",
 			"SPR_FUERA_DER",
-			"TXT_VOZ_OFF",
+			"TXT_VOZ_OFF_TI",
 			"IMG_BATERIA",
 			"IMG_CAMARA",
-			"IMG_BOLSA"
+			"IMG_BOLSA",
+			"FE_FINAL",
+			"TXT_VOZ_OFF_PU"
 		],
 		"subfolders": []
 	},
