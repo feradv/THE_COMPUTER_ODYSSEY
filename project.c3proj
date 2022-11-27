@@ -78,7 +78,15 @@
 			"SPR_SALIDA_PUESTO",
 			"TXT_SALIDA_PUESTO",
 			"SPR_PR_PUESTO",
-			"TXT_DIALOGO_CH_TI"
+			"TXT_DIALOGO_CH_TI",
+			"BG_RECREATIVA",
+			"recreativaColumna",
+			"recreativaSillon",
+			"recreativaRespaldo",
+			"recreativaLado",
+			"recreativaLado2",
+			"recreativaCopia",
+			"SPR_MAQUINA_EXP"
 		],
 		"subfolders": []
 	},
@@ -93,7 +101,8 @@
 			"MENU",
 			"MAPA",
 			"TIENDA",
-			"PUESTO"
+			"PUESTO",
+			"RECREATIVOS"
 		],
 		"subfolders": []
 	},
@@ -102,7 +111,8 @@
 			"EV_MENU",
 			"EV_MAPA",
 			"EV_TIENDA",
-			"EV_PUESTO"
+			"EV_PUESTO",
+			"EV_RECREATIVOS"
 		],
 		"subfolders": []
 	},

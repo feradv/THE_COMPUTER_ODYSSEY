@@ -1,0 +1,199 @@
+{
+	"name": "EV_RECREATIVOS",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 993426241848431
+				}
+			],
+			"actions": [
+				{
+					"id": "set-cursor-style",
+					"objectClass": "MOUSE",
+					"sid": 793371210445223,
+					"parameters": {
+						"cursor-style": "none"
+					}
+				},
+				{
+					"id": "find-path",
+					"objectClass": "PERSONAJE",
+					"sid": 115360252423271,
+					"behaviorType": "Buscarutas",
+					"parameters": {
+						"x": "SPR_MAQUINA_EXP.ImagePointX(0)",
+						"y": "SPR_MAQUINA_EXP.ImagePointY(0)"
+					}
+				}
+			],
+			"sid": 164730061187475
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 342962761097901
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "PUNTERO",
+					"sid": 705547179116871,
+					"parameters": {
+						"x": "MOUSE.X",
+						"y": "MOUSE.Y"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "PUNTERO",
+					"sid": 912630708278200,
+					"parameters": {
+						"frame-number": "0"
+					}
+				}
+			],
+			"sid": 503462178967693
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-path-found",
+					"objectClass": "PERSONAJE",
+					"sid": 207193823414917,
+					"behaviorType": "Buscarutas"
+				}
+			],
+			"actions": [
+				{
+					"id": "move-along-path",
+					"objectClass": "PERSONAJE",
+					"sid": 745131272567045,
+					"behaviorType": "Buscarutas"
+				}
+			],
+			"sid": 437047331850606
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving-along-path",
+					"objectClass": "PERSONAJE",
+					"sid": 625243806170152,
+					"behaviorType": "Buscarutas"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PERSONAJE",
+					"sid": 644863912932320,
+					"parameters": {
+						"animation": "\"ANDAR\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 170244153029129
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-arrived",
+					"objectClass": "PERSONAJE",
+					"sid": 874728932562702,
+					"behaviorType": "Buscarutas"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "PERSONAJE",
+					"sid": 689361356282338,
+					"parameters": {
+						"animation": "\"PARAR\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 511764749113887
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "MOUSE",
+					"sid": 967764744308125,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "SPR_MAQUINA_EXP"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 537809317266266
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "PUNTERO",
+					"sid": 189422631192515,
+					"parameters": {
+						"object": "SPR_MAQUINA_EXP"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "PUNTERO",
+					"sid": 975620567958176,
+					"parameters": {
+						"frame-number": "1"
+					}
+				}
+			],
+			"sid": 252064118516172
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "PUNTERO",
+					"sid": 575234982880092,
+					"parameters": {
+						"object": "SPR_MAQUINA_EXP"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "PUNTERO",
+					"sid": 178983261566140,
+					"parameters": {
+						"frame-number": "0"
+					}
+				}
+			],
+			"sid": 742192205638459
+		}
+	],
+	"sid": 340947377247964
+}
