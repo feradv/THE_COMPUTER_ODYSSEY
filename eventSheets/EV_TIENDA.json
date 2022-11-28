@@ -28,6 +28,15 @@
 						"x": "SPR_TIENDA_CLOSED.ImagePointX(0)",
 						"y": "SPR_TIENDA_CLOSED.ImagePointY(0)"
 					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "TXT_DIALOGO_CH_TI",
+					"sid": 589973527390628,
+					"parameters": {
+						"x": "PERSONAJE.ImagePointX(0)",
+						"y": "PERSONAJE.ImagePointY(0)"
+					}
 				}
 			],
 			"sid": 307478338329305

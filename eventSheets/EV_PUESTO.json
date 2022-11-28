@@ -54,6 +54,14 @@
 						"x": "SPR_INVENTARIO_1.ImagePointX(0)",
 						"y": "SPR_INVENTARIO_1.ImagePointY(0)"
 					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "IMG_BOLSA",
+					"sid": 760441552756282,
+					"parameters": {
+						"collisions": "disabled"
+					}
 				}
 			],
 			"sid": 889435745118655
@@ -1335,6 +1343,14 @@
 							}
 						},
 						{
+							"id": "set-collisions-enabled",
+							"objectClass": "IMG_BOLSA",
+							"sid": 939917040033735,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
 							"id": "set-visible",
 							"objectClass": "IMG_BOLSA",
 							"sid": 241714295014434,
@@ -1433,39 +1449,6 @@
 				}
 			],
 			"sid": 698371550548028
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "is-overlapping-another-object",
-					"objectClass": "PUNTERO",
-					"sid": 609042848918263,
-					"parameters": {
-						"object": "IMG_BOLSA"
-					},
-					"isInverted": true
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation-frame",
-					"objectClass": "PUNTERO",
-					"sid": 139256306810693,
-					"parameters": {
-						"frame-number": "1"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "TXT_MOV_PUESTO",
-					"sid": 829938643328454,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				}
-			],
-			"sid": 250113429943476
 		},
 		{
 			"eventType": "block",
