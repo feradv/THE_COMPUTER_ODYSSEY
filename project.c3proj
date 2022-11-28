@@ -109,7 +109,11 @@
 			"IMG_BOLSA",
 			"FE_FINAL",
 			"TXT_VOZ_OFF_PU",
-			"AUDIO_MENU"
+			"AUDIO_MENU",
+			"TXT_MOV_MENU",
+			"TXT_MOV_MAPA",
+			"TXT_MOV_TIENDA",
+			"TXT_MOV_PUESTO"
 		],
 		"subfolders": []
 	},

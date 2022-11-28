@@ -48,8 +48,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 960,
-						"y": 441,
+						"x": 961,
+						"y": 448,
 						"width": 1920,
 						"height": 882.0000000000001,
 						"originX": 0.5,
@@ -90,8 +90,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 598,
-						"y": 556,
+						"x": 639,
+						"y": 560,
 						"width": 648,
 						"height": 90,
 						"originX": 0,
@@ -132,8 +132,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1111,
-						"y": 404,
+						"x": 1117,
+						"y": 398,
 						"width": 516,
 						"height": 74,
 						"originX": 0,
@@ -310,7 +310,50 @@
 			"name": "LOCALIZACIONES",
 			"overriden": 0,
 			"subLayers": [],
-			"instances": [],
+			"instances": [
+				{
+					"type": "TXT_MOV_MAPA",
+					"properties": {
+						"text": "IR A...",
+						"enable-bbcode": true,
+						"font": "OCR A",
+						"size": 30,
+						"line-height": 0,
+						"bold": true,
+						"italic": true,
+						"color": [
+							0,
+							1,
+							0.8823529411764706,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 51,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 210,
+						"y": 27,
+						"width": 234,
+						"height": 50,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
 			"sid": 534493349428628,
 			"effectTypes": [],
 			"isInitiallyVisible": true,

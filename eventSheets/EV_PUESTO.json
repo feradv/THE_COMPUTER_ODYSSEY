@@ -108,6 +108,31 @@
 					"parameters": {
 						"frame-number": "1"
 					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "TXT_MOV_PUESTO",
+					"sid": 200557604313555,
+					"parameters": {
+						"x": "PUNTERO.ImagePointX(0) + 40",
+						"y": "PUNTERO.ImagePointY(0)"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_MOV_PUESTO",
+					"sid": 170365540270483,
+					"parameters": {
+						"text": "\"VENDEDOR\""
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_MOV_PUESTO",
+					"sid": 371446659761577,
+					"parameters": {
+						"visibility": "visible"
+					}
 				}
 			],
 			"sid": 267325885371654
@@ -133,6 +158,22 @@
 					"parameters": {
 						"frame-number": "0"
 					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_MOV_PUESTO",
+					"sid": 501223234025977,
+					"parameters": {
+						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_MOV_PUESTO",
+					"sid": 965605416836368,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 432051307658663
@@ -156,6 +197,31 @@
 					"sid": 672206357421375,
 					"parameters": {
 						"frame-number": "1"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "TXT_MOV_PUESTO",
+					"sid": 716954122323765,
+					"parameters": {
+						"x": "PUNTERO.ImagePointX(0) + 40",
+						"y": "PUNTERO.ImagePointY(0)"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_MOV_PUESTO",
+					"sid": 583189532658350,
+					"parameters": {
+						"text": "\"ROBOT\""
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_MOV_PUESTO",
+					"sid": 806296848490565,
+					"parameters": {
+						"visibility": "visible"
 					}
 				}
 			],
@@ -625,19 +691,44 @@
 			],
 			"actions": [
 				{
-					"id": "set-visible",
-					"objectClass": "TXT_SALIDA_PUESTO",
-					"sid": 947092759957585,
-					"parameters": {
-						"visibility": "visible"
-					}
-				},
-				{
 					"id": "set-animation-frame",
 					"objectClass": "PUNTERO",
 					"sid": 647204350790003,
 					"parameters": {
 						"frame-number": "1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_SALIDA_PUESTO",
+					"sid": 261495288130771,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "TXT_MOV_PUESTO",
+					"sid": 665900775564258,
+					"parameters": {
+						"x": "PUNTERO.ImagePointX(0) + 40",
+						"y": "PUNTERO.ImagePointY(0)"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_MOV_PUESTO",
+					"sid": 613285575113995,
+					"parameters": {
+						"text": "\"IR A...\""
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_MOV_PUESTO",
+					"sid": 547419519956734,
+					"parameters": {
+						"visibility": "visible"
 					}
 				}
 			],
@@ -743,14 +834,6 @@
 						"animation": "\"ESPECIAL\"",
 						"from": "beginning"
 					}
-				},
-				{
-					"id": "set-text",
-					"objectClass": "TXT_DIALOGO_ROB",
-					"sid": 345963364836368,
-					"parameters": {
-						"text": "\"\""
-					}
 				}
 			],
 			"sid": 154721592261584
@@ -774,6 +857,31 @@
 					"sid": 737823579696968,
 					"parameters": {
 						"frame-number": "1"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "TXT_MOV_PUESTO",
+					"sid": 971276686771922,
+					"parameters": {
+						"x": "PUNTERO.ImagePointX(0) + 40",
+						"y": "PUNTERO.ImagePointY(0)"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_MOV_PUESTO",
+					"sid": 286771474026403,
+					"parameters": {
+						"text": "\"MONEDA 50 PESETAS\""
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_MOV_PUESTO",
+					"sid": 572825897428746,
+					"parameters": {
+						"visibility": "visible"
 					}
 				}
 			],
@@ -1297,9 +1405,67 @@
 					"parameters": {
 						"frame-number": "1"
 					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "TXT_MOV_PUESTO",
+					"sid": 269650078382270,
+					"parameters": {
+						"x": "PUNTERO.ImagePointX(0) + 40",
+						"y": "PUNTERO.ImagePointY(0)"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "TXT_MOV_PUESTO",
+					"sid": 371843176340159,
+					"parameters": {
+						"text": "\"BOLSA TIENDA\""
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_MOV_PUESTO",
+					"sid": 869866300867788,
+					"parameters": {
+						"visibility": "visible"
+					}
 				}
 			],
 			"sid": 698371550548028
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "PUNTERO",
+					"sid": 609042848918263,
+					"parameters": {
+						"object": "IMG_BOLSA"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "PUNTERO",
+					"sid": 139256306810693,
+					"parameters": {
+						"frame-number": "1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_MOV_PUESTO",
+					"sid": 829938643328454,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 250113429943476
 		},
 		{
 			"eventType": "block",

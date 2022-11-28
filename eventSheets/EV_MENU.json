@@ -127,6 +127,23 @@
 					"parameters": {
 						"frame-number": "1"
 					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "TXT_MOV_MENU",
+					"sid": 858149311815131,
+					"parameters": {
+						"x": "PUNTERO.ImagePointX(0) + 40",
+						"y": "PUNTERO.ImagePointY(0)"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_MOV_MENU",
+					"sid": 203183973257679,
+					"parameters": {
+						"visibility": "visible"
+					}
 				}
 			],
 			"sid": 200108098222369
@@ -151,6 +168,14 @@
 					"sid": 571130962679751,
 					"parameters": {
 						"frame-number": "0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_MOV_MENU",
+					"sid": 626161474814160,
+					"parameters": {
+						"visibility": "invisible"
 					}
 				}
 			],

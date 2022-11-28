@@ -36,55 +36,39 @@
 					}
 				},
 				{
-					"type": "IMG_BOLSA",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 37,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 701,
-						"y": 776,
-						"width": 98.04711218891084,
-						"height": 115.81074335560112,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 6.161012259539984,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "SPR_INVENTARIO_3",
+					"type": "PERSONAJE",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "PARAR",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 36,
-					"instanceVariables": {
-						"hayObjeto": 0
+					"uid": 26,
+					"instanceVariables": {},
+					"behaviors": {
+						"Buscarutas": {
+							"properties": {
+								"cell-size": 30,
+								"cell-border": -1,
+								"obstacles": "solids",
+								"max-speed": 700,
+								"acceleration": 700,
+								"deceleration": 700,
+								"rotate-speed": 700,
+								"rotate-object": false,
+								"diagonals": true,
+								"enabled": true
+							}
+						}
 					},
-					"behaviors": {},
 					"world": {
-						"x": 1750,
-						"y": 101,
-						"width": 181,
-						"height": 169,
-						"originX": 0.512,
-						"originY": 0.504,
+						"x": 1806,
+						"y": 836,
+						"width": 268,
+						"height": 449,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -96,24 +80,26 @@
 					}
 				},
 				{
-					"type": "IMG_COOLER",
+					"type": "SPR_INVENTARIO_1",
 					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Default",
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 38,
-					"instanceVariables": {},
+					"uid": 9,
+					"instanceVariables": {
+						"hayObjeto": 0
+					},
 					"behaviors": {},
 					"world": {
-						"x": 1741,
-						"y": 97,
-						"width": 115,
-						"height": 125,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 1356,
+						"y": 99,
+						"width": 181,
+						"height": 169,
+						"originX": 0.512,
+						"originY": 0.504,
 						"color": [
 							1,
 							1,
@@ -156,36 +142,7 @@
 					}
 				},
 				{
-					"type": "IMG_BATERIA",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 39,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1549,
-						"y": 101,
-						"width": 104,
-						"height": 87,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "SPR_INVENTARIO_1",
+					"type": "SPR_INVENTARIO_3",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -193,14 +150,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 9,
+					"uid": 36,
 					"instanceVariables": {
 						"hayObjeto": 0
 					},
 					"behaviors": {},
 					"world": {
-						"x": 1356,
-						"y": 99,
+						"x": 1750,
+						"y": 101,
 						"width": 181,
 						"height": 169,
 						"originX": 0.512,
@@ -212,6 +169,35 @@
 							1
 						],
 						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "IMG_BOLSA",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 37,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 701,
+						"y": 776,
+						"width": 98.04711218891083,
+						"height": 115.81074335560112,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 6.161012259539984,
 						"zElevation": 0
 					}
 				},
@@ -266,10 +252,110 @@
 					"world": {
 						"x": 1352,
 						"y": 93,
-						"width": 124,
+						"width": 123.99999999999999,
 						"height": 120,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "IMG_BATERIA",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 39,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1549,
+						"y": 101,
+						"width": 104,
+						"height": 87,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "IMG_COOLER",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 38,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1741,
+						"y": 97,
+						"width": 115,
+						"height": 125,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TXT_MOV_PUESTO",
+					"properties": {
+						"text": "",
+						"enable-bbcode": true,
+						"font": "OCR A",
+						"size": 30,
+						"line-height": 0,
+						"bold": true,
+						"italic": true,
+						"color": [
+							0,
+							1,
+							0.8823529411764706,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 53,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1474,
+						"y": 985,
+						"width": 431,
+						"height": 85,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
@@ -326,50 +412,6 @@
 						"y": 842.5,
 						"width": 190,
 						"height": 145,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "PERSONAJE",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "PARAR",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 26,
-					"instanceVariables": {},
-					"behaviors": {
-						"Buscarutas": {
-							"properties": {
-								"cell-size": 30,
-								"cell-border": -1,
-								"obstacles": "solids",
-								"max-speed": 700,
-								"acceleration": 700,
-								"deceleration": 700,
-								"rotate-speed": 700,
-								"rotate-object": false,
-								"diagonals": true,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 1806,
-						"y": 836,
-						"width": 268,
-						"height": 449,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -651,9 +693,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 962,
-						"y": 529,
+						"y": 516,
 						"width": 1996,
-						"height": 1160,
+						"height": 1134,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

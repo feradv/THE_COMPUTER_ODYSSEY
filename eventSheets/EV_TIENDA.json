@@ -90,6 +90,23 @@
 					"parameters": {
 						"visibility": "visible"
 					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "TXT_MOV_TIENDA",
+					"sid": 932555830854611,
+					"parameters": {
+						"x": "PUNTERO.ImagePointX(0) + 40",
+						"y": "PUNTERO.ImagePointY(0)"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_MOV_TIENDA",
+					"sid": 190331462090410,
+					"parameters": {
+						"visibility": "visible"
+					}
 				}
 			],
 			"sid": 522824199770527
@@ -120,6 +137,14 @@
 					"id": "set-visible",
 					"objectClass": "TXT_SALIR_INF",
 					"sid": 652955776637922,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_MOV_TIENDA",
+					"sid": 951434328539402,
 					"parameters": {
 						"visibility": "invisible"
 					}

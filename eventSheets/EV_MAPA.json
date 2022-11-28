@@ -90,6 +90,23 @@
 					"parameters": {
 						"visibility": "visible"
 					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "TXT_MOV_MAPA",
+					"sid": 768196128701794,
+					"parameters": {
+						"x": "PUNTERO.ImagePointX(0) + 40",
+						"y": "PUNTERO.ImagePointY(0)"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_MOV_MAPA",
+					"sid": 414587954155356,
+					"parameters": {
+						"visibility": "visible"
+					}
 				}
 			],
 			"sid": 788728908146512
@@ -131,6 +148,14 @@
 					"parameters": {
 						"visibility": "invisible"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_MOV_MAPA",
+					"sid": 270982323882352,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 201157105931149
@@ -160,6 +185,23 @@
 					"id": "set-visible",
 					"objectClass": "TXT_TIENDA",
 					"sid": 229068287273214,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "TXT_MOV_MAPA",
+					"sid": 845951953719937,
+					"parameters": {
+						"x": "PUNTERO.ImagePointX(0) + 40",
+						"y": "PUNTERO.ImagePointY(0)"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_MOV_MAPA",
+					"sid": 149136131208244,
 					"parameters": {
 						"visibility": "visible"
 					}
