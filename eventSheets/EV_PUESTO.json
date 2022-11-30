@@ -62,6 +62,15 @@
 					"parameters": {
 						"collisions": "disabled"
 					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "IMG_MONEDA",
+					"sid": 247785328595398,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
 				}
 			],
 			"sid": 889435745118655
@@ -250,6 +259,38 @@
 				}
 			],
 			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "TXT_SALIDA_PUESTO",
+					"sid": 455037819875288,
+					"parameters": {
+						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "SPR_SALIDA_PUESTO",
+					"sid": 162877603964734,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "SPR_VENDEDOR",
+					"sid": 648478205993096,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "TXT_MOV_PUESTO",
+					"sid": 572528515868944,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
 				{
 					"id": "set-text",
 					"objectClass": "TXT_DIALOGO_CH_PU",
@@ -584,6 +625,15 @@
 					"sid": 996837864963023,
 					"parameters": {
 						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "IMG_MONEDA",
+					"sid": 965241235137464,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
 					}
 				},
 				{
@@ -922,14 +972,6 @@
 					],
 					"actions": [
 						{
-							"id": "set-collisions-enabled",
-							"objectClass": "SPR_VENDEDOR",
-							"sid": 839522520999504,
-							"parameters": {
-								"collisions": "disabled"
-							}
-						},
-						{
 							"id": "set-text",
 							"objectClass": "TXT_VOZ_OFF_PU",
 							"sid": 358063802527720,
@@ -1222,17 +1264,33 @@
 						{
 							"id": "set-text",
 							"objectClass": "TXT_DIALOGO_CH_PU",
-							"sid": 415091371192451,
+							"sid": 466519919453960,
 							"parameters": {
-								"text": "\"Debido a la tormenta, ha habido una caída de tensión y la psu de mi ordenador no funciona bien...\""
+								"text": "\"Debido a la tormenta, ha habido una caída de tensión...\""
 							}
 						},
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 976408870511224,
+							"sid": 477667590372559,
 							"parameters": {
-								"seconds": "4.0"
+								"seconds": "2.0"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TXT_DIALOGO_CH_PU",
+							"sid": 859810055254873,
+							"parameters": {
+								"text": "\"La fuente de alimentación de mi ordenador no funciona bien...\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 517913643429429,
+							"parameters": {
+								"seconds": "2.0"
 							}
 						},
 						{

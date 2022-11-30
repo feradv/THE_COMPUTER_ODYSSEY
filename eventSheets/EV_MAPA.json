@@ -37,6 +37,14 @@
 						"text": "TXT_INTRO.Text",
 						"duration": "30"
 					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "SPR_PUESTO",
+					"sid": 774242033315667,
+					"parameters": {
+						"collisions": "disabled"
+					}
 				}
 			],
 			"sid": 622018230821209
