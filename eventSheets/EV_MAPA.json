@@ -28,6 +28,15 @@
 					"parameters": {
 						"cursor-style": "none"
 					}
+				},
+				{
+					"id": "typewriter-text",
+					"objectClass": "TXT_INTRO",
+					"sid": 293160104959181,
+					"parameters": {
+						"text": "TXT_INTRO.Text",
+						"duration": "30"
+					}
 				}
 			],
 			"sid": 622018230821209
@@ -213,28 +222,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "trigger-once-while-true",
-					"objectClass": "System",
-					"sid": 227302349097921
-				}
-			],
-			"actions": [
-				{
-					"id": "typewriter-text",
-					"objectClass": "TXT_INTRO",
-					"sid": 662690771235152,
-					"parameters": {
-						"text": "TXT_INTRO.Text",
-						"duration": "30"
-					}
-				}
-			],
-			"sid": 535913592787123
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "on-object-clicked",
 					"objectClass": "MOUSE",
 					"sid": 879919864196764,
@@ -282,9 +269,20 @@
 			],
 			"actions": [
 				{
-					"id": "destroy",
+					"id": "set-visible",
 					"objectClass": "SPR_TIENDA",
-					"sid": 676242602996769
+					"sid": 700010729261507,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "SPR_TIENDA",
+					"sid": 336541113648459,
+					"parameters": {
+						"collisions": "disabled"
+					}
 				},
 				{
 					"id": "set-collisions-enabled",
@@ -317,15 +315,6 @@
 				}
 			],
 			"actions": [
-				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 311822283148669,
-					"parameters": {
-						"variable": "tiendaActiva",
-						"value": "1"
-					}
-				},
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",

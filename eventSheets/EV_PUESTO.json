@@ -922,9 +922,12 @@
 					],
 					"actions": [
 						{
-							"id": "destroy",
+							"id": "set-collisions-enabled",
 							"objectClass": "SPR_VENDEDOR",
-							"sid": 734534060730689
+							"sid": 839522520999504,
+							"parameters": {
+								"collisions": "disabled"
+							}
 						},
 						{
 							"id": "set-text",
@@ -960,12 +963,28 @@
 							}
 						},
 						{
+							"id": "set-collisions-enabled",
+							"objectClass": "IMG_MONEDA",
+							"sid": 877285707196937,
+							"parameters": {
+								"collisions": "disabled"
+							}
+						},
+						{
 							"id": "set-position",
 							"objectClass": "IMG_MONEDA",
 							"sid": 977342621718663,
 							"parameters": {
 								"x": "907",
 								"y": "842.5"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "SPR_ROBOT",
+							"sid": 547578051921656,
+							"parameters": {
+								"collisions": "disabled"
 							}
 						},
 						{
@@ -1474,6 +1493,14 @@
 					}
 				},
 				{
+					"id": "set-collisions-enabled",
+					"objectClass": "IMG_BOLSA",
+					"sid": 962558776915958,
+					"parameters": {
+						"collisions": "disabled"
+					}
+				},
+				{
 					"id": "set-visible",
 					"objectClass": "IMG_CAMARA",
 					"sid": 957495176570536,
@@ -1599,6 +1626,15 @@
 					"sid": 818096354521661,
 					"parameters": {
 						"seconds": "5.0"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 765824344966889,
+					"parameters": {
+						"variable": "tiendaActiva",
+						"value": "0"
 					}
 				},
 				{

@@ -219,25 +219,9 @@
 					}
 				},
 				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 554041888909775,
-					"parameters": {
-						"seconds": "1.5"
-					}
-				},
-				{
-					"id": "set-text",
-					"objectClass": "TXT_DIALOGO_CH_TI",
-					"sid": 283599919721111,
-					"parameters": {
-						"text": "\"Mierda...\""
-					}
-				},
-				{
 					"id": "set-visible",
 					"objectClass": "TXT_VOZ_OFF_TI",
-					"sid": 785210379303756,
+					"sid": 694333057349822,
 					"parameters": {
 						"visibility": "visible"
 					}
@@ -245,7 +229,7 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 640555696043605,
+					"sid": 122509657304370,
 					"parameters": {
 						"seconds": "1.5"
 					}
@@ -253,7 +237,7 @@
 				{
 					"id": "destroy",
 					"objectClass": "TXT_DIALOGO_CH_TI",
-					"sid": 538942220129459
+					"sid": 885014695317212
 				}
 			],
 			"sid": 112411335224757

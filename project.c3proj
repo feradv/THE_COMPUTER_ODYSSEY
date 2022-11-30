@@ -190,9 +190,9 @@
 		]
 	},
 	"properties": {
-		"description": "",
+		"description": "Juego Point&Click CyberPunk",
 		"version": "1.0.0.0",
-		"author": "",
+		"author": "Fernando Arribas",
 		"authorEmail": "",
 		"authorWebsite": "",
 		"appId": "",
@@ -242,5 +242,5 @@
 	},
 	"viewportWidth": 1920,
 	"viewportHeight": 1080,
-	"firstLayout": null
+	"firstLayout": "MENU"
 }
