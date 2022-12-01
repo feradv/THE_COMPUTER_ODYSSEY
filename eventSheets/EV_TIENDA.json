@@ -498,9 +498,9 @@
 				{
 					"id": "set-text",
 					"objectClass": "TXT_VOZ_OFF_TI",
-					"sid": 785826124756859,
+					"sid": 653729632653739,
 					"parameters": {
-						"text": "\"¡¡¡SI CLARO Y QUE MÁS!!!\""
+						"text": "\"¡¡¡No puedo llegar ahí!!!\""
 					}
 				},
 				{
@@ -549,9 +549,9 @@
 				{
 					"id": "set-text",
 					"objectClass": "TXT_VOZ_OFF_TI",
-					"sid": 367447216491547,
+					"sid": 578728213543894,
 					"parameters": {
-						"text": "\"¡¡¡SI CLARO Y QUE MÁS!!!\""
+						"text": "\"¡¡¡No puedo llegar ahí!!!\""
 					}
 				},
 				{
@@ -600,9 +600,9 @@
 				{
 					"id": "set-text",
 					"objectClass": "TXT_VOZ_OFF_TI",
-					"sid": 499589620500208,
+					"sid": 393054265436892,
 					"parameters": {
-						"text": "\"¡¡¡SI CLARO Y QUE MÁS!!!\""
+						"text": "\"¡¡¡No puedo llegar ahí!!!\""
 					}
 				},
 				{
@@ -651,9 +651,9 @@
 				{
 					"id": "set-text",
 					"objectClass": "TXT_VOZ_OFF_TI",
-					"sid": 677601913864821,
+					"sid": 310407222199303,
 					"parameters": {
-						"text": "\"¡¡¡SI CLARO Y QUE MÁS!!!\""
+						"text": "\"¡¡¡No puedo llegar ahí!!!\""
 					}
 				},
 				{
@@ -702,9 +702,9 @@
 				{
 					"id": "set-text",
 					"objectClass": "TXT_VOZ_OFF_TI",
-					"sid": 982145554488028,
+					"sid": 125198297692030,
 					"parameters": {
-						"text": "\"¡¡¡SI CLARO Y QUE MÁS!!!\""
+						"text": "\"¡¡¡No puedo llegar ahí!!!\""
 					}
 				},
 				{
