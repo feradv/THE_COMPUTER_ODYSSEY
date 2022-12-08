@@ -6,4 +6,3 @@ La historia gira entorno a un estudiante de la carrera de videojuegos. Debido a 
 
 **Las imágenes han sido descargadas en su totalidad de Internet.**
 **El juego está creado en Construct 3.**
-Fernando Arribas del Val
